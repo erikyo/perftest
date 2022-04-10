@@ -41,3 +41,6 @@ Source Serif Font
 Copyright 2014-2021 Adobe (http://www.adobe.com/)
 License: SIL Open Font License, 1.1, https://opensource.org/licenses/OFL-1.1
 Source: https://github.com/adobe-fonts/source-serif
+
+//
+http://r0k.us/graphics/kodak/

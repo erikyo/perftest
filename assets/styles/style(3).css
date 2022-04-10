@@ -6,15 +6,6 @@ html {
   margin-top: var(--wp-admin--admin-bar--height, 0)
 }
 
-@media (min-width: 890px) {
-  html {
-    margin-top: 60px;
-    margin-top: var(--wp-global-header-offset, 0);
-    scroll-padding-top: 60px;
-    scroll-padding-top: var(--wp-global-header-offset, 0)
-  }
-}
-
 .wp-block-group.global-footer .wp-block-social-links .wp-social-link svg, .wp-block-group.global-footer svg, .wp-block-group.global-header .wp-block-social-links .wp-social-link svg, .wp-block-group.global-header svg {
   fill: var(--wp--preset--color--white)
 }

@@ -41,19 +41,50 @@ include 'inc/performance.php';
 
 
 function perf_image_format_replace( $content ) {
-
-    if (is_admin() || is_front_page()) return $content;
-
     global $post;
-    $post_slug   = $post->post_name;
-    $format_path = get_template_directory_uri() . '/formats/' . $post_slug;
 
-    //monkey patch for mozjpeg
-    if ($post_slug === 'mozjpeg') $post_slug = 'jpg';
+    // return if is front page or backend
+    // or if the page doesn't start for "type-"
 
-    $content = str_replace( '%%PATH%%', $format_path, $content );
-    $content = ($post_slug !== 'original') ? str_replace( array('.jpg', '.png', '.gif'), ".". strtolower($post_slug) , $content ) : $content;
-    return $content;
+    $page_data = isset($post->post_name) ? explode("-", $post->post_name) : '';
+
+    if ( is_admin() || is_front_page() || empty( $page_data[0] ) || ! in_array( $page_data[0], array( 'type', 'image' ) ) ) {
+
+        return $content;
+
+    } else {
+
+        if ($page_data[0] == 'type') {
+
+            // extract filetype and quality (if available from page slug)
+            list( $slug, $filetype, $quality ) = array_pad( $page_data, 3, false );
+
+            // if the page doesn't start for "type-"
+            if ( $quality ) {
+                $format_path = get_template_directory_uri() . "/formats/$quality/$filetype";
+            } else {
+                $format_path = get_template_directory_uri() . "/formats/$filetype";
+            }
+
+            // the title
+            $content = str_replace( '%%TITLE%%', $filetype, $content );
+
+            //monkey patching mozjpeg extension
+            if ( $filetype === 'mozjpeg' ) {
+                $filetype = 'jpg';
+            }
+
+            // replace %%PATH%% with the path to images folder
+            $content = str_replace( '%%PATH%%', $format_path, $content );
+
+
+            // don't change the extension if the page is the "original"
+            return $filetype === 'original' ? $content : str_replace( array( '.jpg', '.png', '.gif' ), "." . strtolower( $filetype ), $content );
+        } else {
+            return $content;
+        }
+
+    }
 }
 add_filter('render_block', 'perf_image_format_replace', 1  );
 

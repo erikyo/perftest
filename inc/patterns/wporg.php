@@ -15,7 +15,7 @@ return array(
 
 <header id="masthead" class="site-header" role="banner">
 <div class="site-branding">
-<p class="site-title">Meet WordPress</p>
+<p class="site-title">Meet %%TITLE%%</p>
 
 <p class="site-description">WordPress is open source software you can use to create a beautiful website, blog, or app.</p>
 </div><!-- .site-branding -->

@@ -37,57 +37,7 @@ add_action( 'after_setup_theme', 'perftest_support' );
 include 'inc/block-patterns.php';
 include 'inc/enqueue.php';
 include 'inc/performance.php';
-
-
-
-function perf_image_format_replace( $content ) {
-    global $post;
-
-    // return if is front page or backend
-    // or if the page doesn't start for "type-"
-
-    $page_data = isset($post->post_name) ? explode("-", $post->post_name) : '';
-
-    if ( is_admin() || is_front_page() || empty( $page_data[0] ) || ! in_array( $page_data[0], array( 'type', 'image' ) ) ) {
-
-        return $content;
-
-    } else {
-
-        if ($page_data[0] == 'type') {
-
-            // extract filetype and quality (if available from page slug)
-            list( $slug, $filetype, $quality ) = array_pad( $page_data, 3, false );
-
-            // if the page doesn't start for "type-"
-            if ( $quality ) {
-                $format_path = get_template_directory_uri() . "/formats/$quality/$filetype";
-            } else {
-                $format_path = get_template_directory_uri() . "/formats/$filetype";
-            }
-
-            // the title
-            $content = str_replace( '%%TITLE%%', $filetype, $content );
-
-            //monkey patching mozjpeg extension
-            if ( $filetype === 'mozjpeg' ) {
-                $filetype = 'jpg';
-            }
-
-            // replace %%PATH%% with the path to images folder
-            $content = str_replace( '%%PATH%%', $format_path, $content );
-
-
-            // don't change the extension if the page is the "original"
-            return $filetype === 'original' ? $content : str_replace( array( '.jpg', '.png', '.gif' ), "." . strtolower( $filetype ), $content );
-        } else {
-            return $content;
-        }
-
-    }
-}
-add_filter('render_block', 'perf_image_format_replace', 1  );
-
+// include 'inc/image_compare.php';
 
 
 function save_img_copy( $format, $quality, $filename, $dest ) {

@@ -13,11 +13,12 @@ SOURCEFILE=$SOURCEIMAGE\.$SOURCEEXT
 which time;
 
 # man time to know more about builtins
-echo 'Start at: '`date +%s` >> ${DESTPATH}output.txt
+echo 'Start at: '`date +%s` &> ${DESTPATH}output.txt
 echo 'Source: '${DESTPATH}${SOURCEFILE} &>> ${DESTPATH}output.txt
 
 #this is because i'm using zsh
 export TIMEFMT="%E real,%U user,%S sys,%P cpu"
+TIMEFORMAT="%E real,%U user,%S sys,%P cpu"
 
 identify ${DESTPATH}${SOURCEFILE} &>> ${DESTPATH}output.txt
 
@@ -40,6 +41,8 @@ do
     printf "\nProcessing: "${DESTFILE}"\n" &>> ${DESTPATH}output.txt
 
     start=`date +%s.%N`
+
+    echo -n "STATS:" &>> ${DESTPATH}output.txt
 
     if [ $f == "mozjpg" ];then
         (time mozjpeg -quality $q -nojfif ${DESTPATH}${SOURCEFILE} > ${DESTPATH}${DESTFILE}) &>> ${DESTPATH}output.txt
@@ -64,7 +67,8 @@ done
 
 compare -metric SSIM -verbose ${DESTPATH}$SOURCEFILE ${DESTPATH}$SOURCEFILE ${DESTPATH}${SOURCEFILE}\-SSIM.png &>> ${DESTPATH}output.txt 2>&1
 
-echo "\n\nFILESIZES: " && stat -c "%n,%s" ${DESTPATH}/* >> ${DESTPATH}output.txt
+echo -n "\n\n\nProcessing:FILESIZES:" >> ${DESTPATH}output.txt
+echo stat -c "%n,%s" ${DESTPATH}/* >> ${DESTPATH}output.txt
 
 echo 'Done!'
 

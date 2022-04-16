@@ -137,6 +137,67 @@ endif;
 add_action( 'wp_enqueue_scripts', 'perftest_footer_scripts' );
 
 
+if ( ! function_exists( 'perftest_compare_scripts' ) ) :
+
+    /**
+     * Split raw txt file into a list of images
+     *
+     * @since PerfTest 1.0
+     *
+     * @return string
+     */
+    function perftest_startwith($needle, $line) {
+        return substr($line, 0, strlen($needle)) === $needle;
+    }
+
+    /**
+     * Enqueue header scripts.
+     *
+     * @since PerfTest 1.0
+     *
+     * @return void
+     */
+    function perftest_compare_scripts() {
+
+        global $post;
+
+        if ( is_page() && substr( $post->post_name, 0, strlen( 'compare' ) ) === 'compare' ) {
+
+            $compare_image = explode( "-", $post->post_name );
+
+            $directory_content = scandir( get_template_directory() . "/tests/" . $compare_image[1] );
+
+            // strip the scandir useless data
+            $directory_content = array_diff( $directory_content, array( '.', '..', 'output.txt' ) );
+
+            // get the output content
+            $txt_file = file_get_contents(get_template_directory_uri() . "/tests/$compare_image[1]/output.txt");
+            $images = explode("Processing: ", $txt_file);
+            $raw_data = array();
+            foreach ($images as $k => $image) {
+              if ($k == 0) {
+                  $raw_data['header'][] = explode("\n", $image);
+              } else {
+                  $image_data = explode("\n", $image);
+                  $raw_data[$image_data[0]] = $image_data;
+              }
+            }
+
+
+            // the comparison script
+            wp_register_script( 'compare-image-scripts', get_template_directory_uri() . '/assets/scripts/image-comparison.js', array(), true );
+
+            wp_enqueue_script( 'compare-image-scripts' );
+
+            // the images to compare
+            wp_add_inline_script( 'compare-image-scripts', 'var imagepath = "' . get_template_directory_uri() . '/tests/' . $compare_image[1] . '/"; var rawdata = ' . json_encode($raw_data) . '; var compareImages = ' . json_encode( $directory_content ), 'before' );
+
+        }
+
+    }
+
+endif;
+add_action( 'wp_enqueue_scripts', 'perftest_compare_scripts' );
 
 
 

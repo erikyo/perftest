@@ -1,0 +1,917 @@
+Source: 
+1.002 real,0.002 user,0.000 sys,0.21 cpu
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.000u 0:00.000
+
+Processing: ISO-mozjpg-05.jpg
+0.165 real,0.157 user,0.008 sys,100.03 cpu
+test/ISO-mozjpg-05.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 37959B 0.000u 0:00.000
+TIMETOCOMPLETE:.166233397
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-mozjpg-05.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 37959B 0.030u 0:00.028
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.940242
+    green: 0.9402
+    blue: 0.938789
+    all: 0.939744
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-mozjpg-05.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.270u 0:01.854
+
+Processing: ISO-mozjpg-25.jpg
+0.187 real,0.175 user,0.012 sys,100.03 cpu
+test/ISO-mozjpg-25.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 87493B 0.000u 0:00.000
+TIMETOCOMPLETE:.188247759
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-mozjpg-25.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 87493B 0.040u 0:00.029
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.98643
+    green: 0.985811
+    blue: 0.984849
+    all: 0.985696
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-mozjpg-25.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.310u 0:01.887
+
+Processing: ISO-mozjpg-50.jpg
+0.210 real,0.210 user,0.000 sys,100.01 cpu
+test/ISO-mozjpg-50.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 122386B 0.000u 0:00.000
+TIMETOCOMPLETE:.211667785
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-mozjpg-50.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 122386B 0.030u 0:00.029
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.992102
+    green: 0.992361
+    blue: 0.99193
+    all: 0.992131
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-mozjpg-50.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.310u 0:01.878
+
+Processing: ISO-mozjpg-60.jpg
+0.223 real,0.219 user,0.004 sys,100.03 cpu
+test/ISO-mozjpg-60.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 137131B 0.000u 0:00.000
+TIMETOCOMPLETE:.224644875
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-mozjpg-60.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 137131B 0.040u 0:00.030
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.993946
+    green: 0.993981
+    blue: 0.992019
+    all: 0.993315
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-mozjpg-60.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.330u 0:01.888
+
+Processing: ISO-mozjpg-70.jpg
+0.270 real,0.258 user,0.012 sys,100.02 cpu
+test/ISO-mozjpg-70.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 155373B 0.000u 0:00.000
+TIMETOCOMPLETE:.271276130
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-mozjpg-70.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 155373B 0.020u 0:00.030
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.995543
+    green: 0.995747
+    blue: 0.995529
+    all: 0.995606
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-mozjpg-70.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.280u 0:01.848
+
+Processing: ISO-mozjpg-75.jpg
+0.276 real,0.260 user,0.016 sys,100.02 cpu
+test/ISO-mozjpg-75.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 165876B 0.000u 0:00.000
+TIMETOCOMPLETE:.277080414
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-mozjpg-75.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 165876B 0.020u 0:00.030
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.996278
+    green: 0.996413
+    blue: 0.99618
+    all: 0.99629
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-mozjpg-75.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.330u 0:01.889
+
+Processing: ISO-mozjpg-80.jpg
+0.333 real,0.333 user,0.000 sys,100.01 cpu
+test/ISO-mozjpg-80.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 187245B 0.000u 0:00.000
+TIMETOCOMPLETE:.333909806
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-mozjpg-80.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 187245B 0.030u 0:00.033
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.997274
+    green: 0.997398
+    blue: 0.997132
+    all: 0.997268
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-mozjpg-80.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.220u 0:01.862
+
+Processing: ISO-mozjpg-85.jpg
+0.346 real,0.342 user,0.004 sys,100.02 cpu
+test/ISO-mozjpg-85.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 209813B 0.000u 0:00.000
+TIMETOCOMPLETE:.347565695
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-mozjpg-85.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 209813B 0.040u 0:00.033
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.998085
+    green: 0.998258
+    blue: 0.997941
+    all: 0.998095
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-mozjpg-85.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.300u 0:01.873
+
+Processing: ISO-mozjpg-90.jpg
+0.465 real,0.453 user,0.012 sys,100.01 cpu
+test/ISO-mozjpg-90.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 264258B 0.000u 0:00.000
+TIMETOCOMPLETE:.465882156
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-mozjpg-90.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 264258B 0.040u 0:00.038
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.998684
+    green: 0.998855
+    blue: 0.998534
+    all: 0.998691
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-mozjpg-90.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.230u 0:01.853
+
+Processing: ISO-mozjpg-95.jpg
+0.516 real,0.504 user,0.012 sys,100.01 cpu
+test/ISO-mozjpg-95.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 336255B 0.000u 0:00.000
+TIMETOCOMPLETE:.517101337
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-mozjpg-95.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 336255B 0.050u 0:00.040
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999347
+    green: 0.999515
+    blue: 0.999163
+    all: 0.999342
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-mozjpg-95.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.120u 0:01.754
+
+Processing: ISO-avif-05.avif
+1.270 real,3.027 user,0.045 sys,241.81 cpu
+test/ISO-avif-05.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 15906B 0.000u 0:00.000
+TIMETOCOMPLETE:1.271668593
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-avif-05.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 15906B 0.090u 0:00.099
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.985708
+    green: 0.985533
+    blue: 0.985067
+    all: 0.985436
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-avif-05.avif-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.280u 0:01.857
+
+Processing: ISO-avif-25.avif
+1.171 real,2.821 user,0.075 sys,247.38 cpu
+test/ISO-avif-25.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 30523B 0.000u 0:00.000
+TIMETOCOMPLETE:1.172056771
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-avif-25.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 30523B 0.100u 0:00.104
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.99647
+    green: 0.996796
+    blue: 0.996557
+    all: 0.996608
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-avif-25.avif-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.330u 0:01.893
+
+Processing: ISO-avif-50.avif
+1.157 real,2.771 user,0.043 sys,243.40 cpu
+test/ISO-avif-50.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 55741B 0.000u 0:00.000
+TIMETOCOMPLETE:1.157743867
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-avif-50.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 55741B 0.120u 0:00.109
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.998603
+    green: 0.999258
+    blue: 0.999059
+    all: 0.998973
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-avif-50.avif-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.340u 0:01.920
+
+Processing: ISO-avif-60.avif
+1.167 real,2.775 user,0.044 sys,241.59 cpu
+test/ISO-avif-60.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 70452B 0.000u 0:00.000
+TIMETOCOMPLETE:1.168128117
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-avif-60.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 70452B 0.110u 0:00.109
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999106
+    green: 0.999603
+    blue: 0.999328
+    all: 0.999346
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-avif-60.avif-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.350u 0:01.909
+
+Processing: ISO-avif-70.avif
+1.172 real,2.747 user,0.060 sys,239.42 cpu
+test/ISO-avif-70.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 82464B 0.000u 0:00.000
+TIMETOCOMPLETE:1.173733926
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-avif-70.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 82464B 0.120u 0:00.111
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999254
+    green: 0.999717
+    blue: 0.999465
+    all: 0.999479
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-avif-70.avif-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.310u 0:01.898
+
+Processing: ISO-avif-75.avif
+1.176 real,2.780 user,0.044 sys,240.07 cpu
+test/ISO-avif-75.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 88466B 0.000u 0:00.000
+TIMETOCOMPLETE:1.177640038
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-avif-75.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 88466B 0.120u 0:00.112
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999308
+    green: 0.999785
+    blue: 0.999512
+    all: 0.999535
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-avif-75.avif-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.330u 0:01.898
+
+Processing: ISO-avif-80.avif
+1.199 real,2.818 user,0.056 sys,239.61 cpu
+test/ISO-avif-80.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 95890B 0.000u 0:00.000
+TIMETOCOMPLETE:1.200753210
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-avif-80.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 95890B 0.110u 0:00.112
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999372
+    green: 0.999816
+    blue: 0.999565
+    all: 0.999584
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-avif-80.avif-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.200u 0:01.843
+
+Processing: ISO-avif-85.avif
+1.234 real,2.893 user,0.052 sys,238.68 cpu
+test/ISO-avif-85.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 110628B 0.000u 0:00.000
+TIMETOCOMPLETE:1.235290057
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-avif-85.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 110628B 0.110u 0:00.114
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999553
+    green: 0.999838
+    blue: 0.999598
+    all: 0.999663
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-avif-85.avif-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.180u 0:01.851
+
+Processing: ISO-avif-90.avif
+1.274 real,2.934 user,0.060 sys,235.11 cpu
+test/ISO-avif-90.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 129845B 0.000u 0:00.000
+TIMETOCOMPLETE:1.274844748
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-avif-90.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 129845B 0.110u 0:00.118
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999728
+    green: 0.999937
+    blue: 0.999593
+    all: 0.999753
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-avif-90.avif-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.180u 0:01.801
+
+Processing: ISO-avif-95.avif
+1.347 real,3.049 user,0.060 sys,230.73 cpu
+test/ISO-avif-95.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 161791B 0.000u 0:00.000
+TIMETOCOMPLETE:1.348575482
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-avif-95.avif AVIF 1409x2035 1409x2035+0+0 8-bit sRGB 161791B 0.140u 0:00.124
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999794
+    green: 0.999975
+    blue: 0.999612
+    all: 0.999794
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-avif-95.avif-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.180u 0:01.875
+
+Processing: ISO-webp-05.webp
+0.323 real,0.307 user,0.016 sys,100.01 cpu
+test/ISO-webp-05.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 57536B 0.020u 0:00.028
+TIMETOCOMPLETE:.324546922
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-webp-05.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 57536B 0.050u 0:00.039
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.993952
+    green: 0.993428
+    blue: 0.992839
+    all: 0.993406
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-webp-05.webp-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.320u 0:01.870
+
+Processing: ISO-webp-25.webp
+0.311 real,0.283 user,0.028 sys,100.01 cpu
+test/ISO-webp-25.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 83862B 0.030u 0:00.031
+TIMETOCOMPLETE:.312556553
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-webp-25.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 83862B 0.040u 0:00.041
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.997104
+    green: 0.996881
+    blue: 0.996296
+    all: 0.99676
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-webp-25.webp-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.300u 0:01.866
+
+Processing: ISO-webp-50.webp
+0.315 real,0.299 user,0.016 sys,100.02 cpu
+test/ISO-webp-50.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 107354B 0.030u 0:00.031
+TIMETOCOMPLETE:.315765787
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-webp-50.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 107354B 0.050u 0:00.042
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.998589
+    green: 0.998318
+    blue: 0.997668
+    all: 0.998192
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-webp-50.webp-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.290u 0:01.863
+
+Processing: ISO-webp-60.webp
+0.316 real,0.304 user,0.012 sys,100.01 cpu
+test/ISO-webp-60.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 115092B 0.030u 0:00.032
+TIMETOCOMPLETE:.317257367
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-webp-60.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 115092B 0.050u 0:00.043
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.998899
+    green: 0.998822
+    blue: 0.99791
+    all: 0.998544
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-webp-60.webp-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.300u 0:01.870
+
+Processing: ISO-webp-70.webp
+0.316 real,0.296 user,0.020 sys,100.02 cpu
+test/ISO-webp-70.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 122550B 0.030u 0:00.032
+TIMETOCOMPLETE:.317504551
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-webp-70.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 122550B 0.040u 0:00.043
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999076
+    green: 0.998992
+    blue: 0.997881
+    all: 0.998649
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-webp-70.webp-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.310u 0:01.874
+
+Processing: ISO-webp-75.webp
+0.321 real,0.301 user,0.020 sys,100.01 cpu
+test/ISO-webp-75.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 126334B 0.030u 0:00.033
+TIMETOCOMPLETE:.322064209
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.063
+test/ISO-webp-75.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 126334B 0.040u 0:00.043
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999154
+    green: 0.999072
+    blue: 0.998039
+    all: 0.998755
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-webp-75.webp-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.310u 0:01.872
+
+Processing: ISO-webp-80.webp
+0.319 real,0.303 user,0.016 sys,100.01 cpu
+test/ISO-webp-80.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 140400B 0.030u 0:00.033
+TIMETOCOMPLETE:.320318768
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-webp-80.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 140400B 0.040u 0:00.044
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999391
+    green: 0.999357
+    blue: 0.998212
+    all: 0.998987
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-webp-80.webp-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.300u 0:01.874
+
+Processing: ISO-webp-85.webp
+0.322 real,0.310 user,0.012 sys,100.01 cpu
+test/ISO-webp-85.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 156054B 0.020u 0:00.034
+TIMETOCOMPLETE:.323834520
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-webp-85.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 156054B 0.060u 0:00.045
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999433
+    green: 0.999439
+    blue: 0.998824
+    all: 0.999232
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-webp-85.webp-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.310u 0:01.870
+
+Processing: ISO-webp-90.webp
+0.326 real,0.318 user,0.008 sys,100.01 cpu
+test/ISO-webp-90.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 179694B 0.030u 0:00.035
+TIMETOCOMPLETE:.327475541
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-webp-90.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 179694B 0.060u 0:00.046
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999549
+    green: 0.999567
+    blue: 0.999663
+    all: 0.999593
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-webp-90.webp-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.300u 0:01.871
+
+Processing: ISO-webp-95.webp
+0.337 real,0.321 user,0.016 sys,100.01 cpu
+test/ISO-webp-95.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 226860B 0.030u 0:00.037
+TIMETOCOMPLETE:.337983833
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-webp-95.webp WEBP 1409x2035 1409x2035+0+0 8-bit sRGB 226860B 0.050u 0:00.048
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999696
+    green: 0.99973
+    blue: 0.999816
+    all: 0.999747
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-webp-95.webp-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.310u 0:01.876
+
+Processing: ISO-jpg-05.jpg
+0.102 real,0.082 user,0.020 sys,100.06 cpu
+test/ISO-jpg-05.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 73410B 0.000u 0:00.000
+TIMETOCOMPLETE:.102995837
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-jpg-05.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 73410B 0.030u 0:00.024
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.965443
+    green: 0.966077
+    blue: 0.964773
+    all: 0.965431
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-jpg-05.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.290u 0:01.865
+
+Processing: ISO-jpg-25.jpg
+0.103 real,0.079 user,0.024 sys,100.06 cpu
+test/ISO-jpg-25.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 138897B 0.000u 0:00.000
+TIMETOCOMPLETE:.104442161
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-jpg-25.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 138897B 0.030u 0:00.025
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.985741
+    green: 0.987279
+    blue: 0.987545
+    all: 0.986855
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-jpg-25.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.300u 0:01.871
+
+Processing: ISO-jpg-50.jpg
+0.105 real,0.088 user,0.016 sys,100.06 cpu
+test/ISO-jpg-50.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 180958B 0.000u 0:00.000
+TIMETOCOMPLETE:.106027969
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-jpg-50.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 180958B 0.020u 0:00.025
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.993315
+    green: 0.993846
+    blue: 0.993566
+    all: 0.993575
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-jpg-50.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.340u 0:01.895
+
+Processing: ISO-jpg-60.jpg
+0.105 real,0.089 user,0.016 sys,100.04 cpu
+test/ISO-jpg-60.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 195444B 0.000u 0:00.000
+TIMETOCOMPLETE:.106198067
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-jpg-60.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 195444B 0.030u 0:00.025
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.994602
+    green: 0.994797
+    blue: 0.993005
+    all: 0.994135
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-jpg-60.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.300u 0:01.875
+
+Processing: ISO-jpg-70.jpg
+0.105 real,0.093 user,0.012 sys,99.98 cpu
+test/ISO-jpg-70.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 216148B 0.000u 0:00.000
+TIMETOCOMPLETE:.106195668
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-jpg-70.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 216148B 0.040u 0:00.026
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.995837
+    green: 0.996096
+    blue: 0.995875
+    all: 0.995936
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-jpg-70.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.320u 0:01.875
+
+Processing: ISO-jpg-75.jpg
+0.106 real,0.094 user,0.012 sys,100.04 cpu
+test/ISO-jpg-75.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 228568B 0.000u 0:00.000
+TIMETOCOMPLETE:.107044168
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-jpg-75.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 228568B 0.030u 0:00.026
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.99647
+    green: 0.996672
+    blue: 0.9964
+    all: 0.996514
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-jpg-75.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.520u 0:02.093
+
+Processing: ISO-jpg-80.jpg
+0.107 real,0.091 user,0.016 sys,100.04 cpu
+test/ISO-jpg-80.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 245751B 0.000u 0:00.000
+TIMETOCOMPLETE:.108327821
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.063
+test/ISO-jpg-80.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 245751B 0.030u 0:00.026
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.997387
+    green: 0.997585
+    blue: 0.997025
+    all: 0.997332
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-jpg-80.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.170u 0:01.808
+
+Processing: ISO-jpg-85.jpg
+0.107 real,0.091 user,0.016 sys,100.06 cpu
+test/ISO-jpg-85.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 268850B 0.000u 0:00.000
+TIMETOCOMPLETE:.107960080
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-jpg-85.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 268850B 0.030u 0:00.026
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.998065
+    green: 0.998291
+    blue: 0.997832
+    all: 0.998063
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-jpg-85.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.210u 0:01.856
+
+Processing: ISO-jpg-90.jpg
+0.121 real,0.105 user,0.016 sys,100.04 cpu
+test/ISO-jpg-90.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 331732B 0.000u 0:00.000
+TIMETOCOMPLETE:.122246963
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-jpg-90.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 331732B 0.030u 0:00.029
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.998753
+    green: 0.999003
+    blue: 0.998551
+    all: 0.998769
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-jpg-90.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.200u 0:01.823
+
+Processing: ISO-jpg-95.jpg
+0.123 real,0.103 user,0.020 sys,100.04 cpu
+test/ISO-jpg-95.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 415664B 0.000u 0:00.000
+TIMETOCOMPLETE:.124453631
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-jpg-95.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 415664B 0.030u 0:00.030
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999454
+    green: 0.999637
+    blue: 0.999262
+    all: 0.999451
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-jpg-95.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.160u 0:01.789
+
+Processing: ISO-pjpg-05.jpg
+0.118 real,0.102 user,0.016 sys,100.05 cpu
+test/ISO-pjpg-05.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 74803B 0.000u 0:00.000
+TIMETOCOMPLETE:.119494408
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-pjpg-05.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 74803B 0.040u 0:00.036
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.965443
+    green: 0.966077
+    blue: 0.964773
+    all: 0.965431
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-pjpg-05.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.280u 0:01.862
+
+Processing: ISO-pjpg-25.jpg
+0.122 real,0.106 user,0.016 sys,100.06 cpu
+test/ISO-pjpg-25.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 138643B 0.000u 0:00.000
+TIMETOCOMPLETE:.122924389
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-pjpg-25.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 138643B 0.050u 0:00.038
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.985741
+    green: 0.987279
+    blue: 0.987545
+    all: 0.986855
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-pjpg-25.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.310u 0:01.873
+
+Processing: ISO-pjpg-50.jpg
+0.124 real,0.112 user,0.012 sys,99.95 cpu
+test/ISO-pjpg-50.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 179463B 0.000u 0:00.000
+TIMETOCOMPLETE:.125545739
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-pjpg-50.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 179463B 0.040u 0:00.040
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.993315
+    green: 0.993846
+    blue: 0.993566
+    all: 0.993575
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-pjpg-50.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.340u 0:01.899
+
+Processing: ISO-pjpg-60.jpg
+0.125 real,0.101 user,0.024 sys,100.05 cpu
+test/ISO-pjpg-60.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 193402B 0.000u 0:00.000
+TIMETOCOMPLETE:.126568918
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-pjpg-60.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 193402B 0.050u 0:00.040
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.994602
+    green: 0.994797
+    blue: 0.993005
+    all: 0.994135
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-pjpg-60.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.310u 0:01.876
+
+Processing: ISO-pjpg-70.jpg
+0.126 real,0.114 user,0.012 sys,100.05 cpu
+test/ISO-pjpg-70.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 212605B 0.000u 0:00.000
+TIMETOCOMPLETE:.127669774
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-pjpg-70.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 212605B 0.030u 0:00.041
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.995837
+    green: 0.996096
+    blue: 0.995875
+    all: 0.995936
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-pjpg-70.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.320u 0:01.872
+
+Processing: ISO-pjpg-75.jpg
+0.127 real,0.119 user,0.008 sys,100.06 cpu
+test/ISO-pjpg-75.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 224119B 0.000u 0:00.000
+TIMETOCOMPLETE:.128303142
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-pjpg-75.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 224119B 0.040u 0:00.041
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.99647
+    green: 0.996672
+    blue: 0.9964
+    all: 0.996514
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-pjpg-75.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.320u 0:01.898
+
+Processing: ISO-pjpg-80.jpg
+0.129 real,0.109 user,0.020 sys,100.06 cpu
+test/ISO-pjpg-80.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 240327B 0.000u 0:00.000
+TIMETOCOMPLETE:.130070115
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-pjpg-80.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 240327B 0.050u 0:00.042
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.997387
+    green: 0.997585
+    blue: 0.997025
+    all: 0.997332
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-pjpg-80.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.170u 0:01.808
+
+Processing: ISO-pjpg-85.jpg
+0.129 real,0.113 user,0.016 sys,100.04 cpu
+test/ISO-pjpg-85.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 262102B 0.000u 0:00.000
+TIMETOCOMPLETE:.130509185
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.050u 0:00.062
+test/ISO-pjpg-85.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 262102B 0.050u 0:00.042
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.998065
+    green: 0.998291
+    blue: 0.997832
+    all: 0.998063
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-pjpg-85.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.220u 0:01.857
+
+Processing: ISO-pjpg-90.jpg
+0.152 real,0.140 user,0.012 sys,100.04 cpu
+test/ISO-pjpg-90.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 325173B 0.000u 0:00.000
+TIMETOCOMPLETE:.152954920
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-pjpg-90.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 325173B 0.050u 0:00.054
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.998753
+    green: 0.999003
+    blue: 0.998551
+    all: 0.998769
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-pjpg-90.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.360u 0:01.925
+
+Processing: ISO-pjpg-95.jpg
+0.157 real,0.141 user,0.016 sys,100.03 cpu
+test/ISO-pjpg-95.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 406106B 0.000u 0:00.000
+TIMETOCOMPLETE:.158327646
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO-pjpg-95.jpg JPEG 1409x2035 1409x2035+0+0 8-bit sRGB 406106B 0.050u 0:00.056
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 0.999454
+    green: 0.999637
+    blue: 0.999262
+    all: 0.999451
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO-pjpg-95.jpg-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.140u 0:01.789
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+test/ISO.png PNG 1409x2035 1409x2035+0+0 8-bit sRGB 352571B 0.060u 0:00.062
+Image: test/ISO.png
+  Channel distortion: SSIM
+    red: 1
+    green: 1
+    blue: 1
+    all: 1
+writing raw profile: type=icc, length=596
+writing raw profile: type=xmp, length=1188
+test/ISO.png=>test/ISO.png-SSIM.png PNG 1409x2035 8-bit sRGB 352571B 6.260u 0:01.828
+test//ISO-avif-05.avif,15906
+test//ISO-avif-05.avif-SSIM.png,185320
+test//ISO-avif-25.avif,30523
+test//ISO-avif-25.avif-SSIM.png,179702
+test//ISO-avif-50.avif,55741
+test//ISO-avif-50.avif-SSIM.png,174790
+test//ISO-avif-60.avif,70452
+test//ISO-avif-60.avif-SSIM.png,174483
+test//ISO-avif-70.avif,82464
+test//ISO-avif-70.avif-SSIM.png,173155
+test//ISO-avif-75.avif,88466
+test//ISO-avif-75.avif-SSIM.png,172628
+test//ISO-avif-80.avif,95890
+test//ISO-avif-80.avif-SSIM.png,317792
+test//ISO-avif-85.avif,110628
+test//ISO-avif-85.avif-SSIM.png,313722
+test//ISO-avif-90.avif,129845
+test//ISO-avif-90.avif-SSIM.png,315480
+test//ISO-avif-95.avif,161791
+test//ISO-avif-95.avif-SSIM.png,332988
+test//ISO-jpg-05.jpg,73410
+test//ISO-jpg-05.jpg-SSIM.png,197413
+test//ISO-jpg-25.jpg,138897
+test//ISO-jpg-25.jpg-SSIM.png,204782
+test//ISO-jpg-50.jpg,180958
+test//ISO-jpg-50.jpg-SSIM.png,213504
+test//ISO-jpg-60.jpg,195444
+test//ISO-jpg-60.jpg-SSIM.png,205444
+test//ISO-jpg-70.jpg,216148
+test//ISO-jpg-70.jpg-SSIM.png,184178
+test//ISO-jpg-75.jpg,228568
+test//ISO-jpg-75.jpg-SSIM.png,183397
+test//ISO-jpg-80.jpg,245751
+test//ISO-jpg-80.jpg-SSIM.png,341820
+test//ISO-jpg-85.jpg,268850
+test//ISO-jpg-85.jpg-SSIM.png,335244
+test//ISO-jpg-90.jpg,331732
+test//ISO-jpg-90.jpg-SSIM.png,392214
+test//ISO-jpg-95.jpg,415664
+test//ISO-jpg-95.jpg-SSIM.png,431072
+test//ISO-mozjpg-05.jpg,37959
+test//ISO-mozjpg-05.jpg-SSIM.png,184533
+test//ISO-mozjpg-25.jpg,87493
+test//ISO-mozjpg-25.jpg-SSIM.png,167723
+test//ISO-mozjpg-50.jpg,122386
+test//ISO-mozjpg-50.jpg-SSIM.png,175200
+test//ISO-mozjpg-60.jpg,137131
+test//ISO-mozjpg-60.jpg-SSIM.png,165759
+test//ISO-mozjpg-70.jpg,155373
+test//ISO-mozjpg-70.jpg-SSIM.png,162132
+test//ISO-mozjpg-75.jpg,165876
+test//ISO-mozjpg-75.jpg-SSIM.png,161818
+test//ISO-mozjpg-80.jpg,187245
+test//ISO-mozjpg-80.jpg-SSIM.png,311690
+test//ISO-mozjpg-85.jpg,209813
+test//ISO-mozjpg-85.jpg-SSIM.png,165193
+test//ISO-mozjpg-90.jpg,264258
+test//ISO-mozjpg-90.jpg-SSIM.png,355132
+test//ISO-mozjpg-95.jpg,336255
+test//ISO-mozjpg-95.jpg-SSIM.png,379047
+test//ISO-pjpg-05.jpg,74803
+test//ISO-pjpg-05.jpg-SSIM.png,197413
+test//ISO-pjpg-25.jpg,138643
+test//ISO-pjpg-25.jpg-SSIM.png,204782
+test//ISO-pjpg-50.jpg,179463
+test//ISO-pjpg-50.jpg-SSIM.png,213504
+test//ISO-pjpg-60.jpg,193402
+test//ISO-pjpg-60.jpg-SSIM.png,205444
+test//ISO-pjpg-70.jpg,212605
+test//ISO-pjpg-70.jpg-SSIM.png,184178
+test//ISO-pjpg-75.jpg,224119
+test//ISO-pjpg-75.jpg-SSIM.png,183397
+test//ISO-pjpg-80.jpg,240327
+test//ISO-pjpg-80.jpg-SSIM.png,341820
+test//ISO-pjpg-85.jpg,262102
+test//ISO-pjpg-85.jpg-SSIM.png,335244
+test//ISO-pjpg-90.jpg,325173
+test//ISO-pjpg-90.jpg-SSIM.png,392214
+test//ISO-pjpg-95.jpg,406106
+test//ISO-pjpg-95.jpg-SSIM.png,431072
+test//ISO.png,352571
+test//ISO.png-SSIM.png,134389
+test//ISO-webp-05.webp,57536
+test//ISO-webp-05.webp-SSIM.png,198004
+test//ISO-webp-25.webp,83862
+test//ISO-webp-25.webp-SSIM.png,200492
+test//ISO-webp-50.webp,107354
+test//ISO-webp-50.webp-SSIM.png,200880
+test//ISO-webp-60.webp,115092
+test//ISO-webp-60.webp-SSIM.png,204200
+test//ISO-webp-70.webp,122550
+test//ISO-webp-70.webp-SSIM.png,200883
+test//ISO-webp-75.webp,126334
+test//ISO-webp-75.webp-SSIM.png,200863
+test//ISO-webp-80.webp,140400
+test//ISO-webp-80.webp-SSIM.png,201091
+test//ISO-webp-85.webp,156054
+test//ISO-webp-85.webp-SSIM.png,201265
+test//ISO-webp-90.webp,179694
+test//ISO-webp-90.webp-SSIM.png,196234
+test//ISO-webp-95.webp,226860
+test//ISO-webp-95.webp-SSIM.png,197339
+test//output.txt,32828

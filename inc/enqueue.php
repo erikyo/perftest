@@ -247,6 +247,25 @@ if ( ! function_exists( 'perftest_inline_head_style' ) ) :
             background: none !important;
             padding: 0 !important;
           }
+          html body ul li {
+            list-style-position: inside;
+          }
+          #masthead .site-title {
+            color: #fff;
+            display: block;
+            text-align: center;
+            font-size: 48px;
+            font-weight: 300;
+            line-height: 1;
+            margin: 32px 0 16px;
+            text-align: center;
+          }
+
+          body .wp-block-code > code {
+            padding: inherit;
+            border: none;
+            color: white;
+          }
         </style>
         <style id="admin-bar-inline-css" type="text/css">
 
@@ -277,36 +296,3 @@ if ( ! function_exists( 'perftest_inline_head_style' ) ) :
 
 endif;
 add_action( 'wp_head', 'perftest_inline_head_style' );
-
-
-if ( ! function_exists( 'perftest_inline_footer_style' ) ) :
-
-    /**
-     * Enqueue footer inline styles.
-     *
-     * @since PerfTest 1.0
-     *
-     * @return void
-     */
-    function perftest_inline_footer_style() {
-        ?>
-      <style>.wp-container-2 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;}.wp-container-2 > * { margin: 0; }</style>
-      <style>.wp-container-4 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;}.wp-container-4 > * { margin: 0; }</style>
-      <style>.wp-container-5 .alignleft { float: left; margin-right: 2em; margin-left: 0; }.wp-container-5 .alignright { float: right; margin-left: 2em; margin-right: 0; }</style>
-      <style>.wp-container-6 .alignleft { float: left; margin-right: 2em; margin-left: 0; }.wp-container-6 .alignright { float: right; margin-left: 2em; margin-right: 0; }</style>
-      <style>.wp-container-8 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;}.wp-container-8 > * { margin: 0; }</style>
-      <style>.wp-container-10 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;}.wp-container-10 > * { margin: 0; }</style>
-      <style>.wp-container-12 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;}.wp-container-12 > * { margin: 0; }</style>
-      <style>.wp-container-14 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;}.wp-container-14 > * { margin: 0; }</style>
-      <style>.wp-container-16 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;}.wp-container-16 > * { margin: 0; }</style>
-      <style>.wp-container-17 .alignleft { float: left; margin-right: 2em; margin-left: 0; }.wp-container-17 .alignright { float: right; margin-left: 2em; margin-right: 0; }</style>
-      <style>.wp-container-18 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;justify-content: flex-start;}.wp-container-18 > * { margin: 0; }</style>
-      <style>.wp-container-19 {display: flex;gap: 0.5em;flex-wrap: wrap;align-items: center;}.wp-container-19 > * { margin: 0; }</style>
-      <style>.wp-container-20 .alignleft { float: left; margin-right: 2em; margin-left: 0; }.wp-container-20 .alignright { float: right; margin-left: 2em; margin-right: 0; }</style>
-      <style>.wp-container-21 .alignleft { float: left; margin-right: 2em; margin-left: 0; }.wp-container-21 .alignright { float: right; margin-left: 2em; margin-right: 0; }</style>
-        <?php
-    }
-
-endif;
-
-add_action( 'wp_footer', 'perftest_inline_footer_style' );

@@ -1,15 +1,94 @@
 <!-- wp:template-part {"slug":"header","tagName":"header"} /-->
 <!-- wp:post-content {"layout":{"inherit":true}} /-->
-<div class="img-comp-select-container">
-  <select id="selectImage1"></select>
-  <select id="selectImage2"></select>
-</div>
-<div class="img-comp-container">
-  <div class="img-comp-img">
-    <img src="#">
+<div class="img-comparator-wrap">
+  
+  <div class="img-comparator">
+    <div id="sourceData" class="img-comp-sourcedata"></div>
+    <div class="img-comp-split-container img-comp-select-container">
+      <select id="selectImage1"></select>
+      <button id="selectImage1Filter"><span class="dashicons dashicons-image-filter"></span></button>
+      <input type="range" id="selectImage1FilterValue" name="FilterValue" min="0" max="100" value="100">
+      <select id="selectImage2"></select>
+    </div>
+    <div class="img-comp-container">
+      <div class="img-comp-img">
+        <img id="image0Container" src="">
+      </div>
+      <div class="img-comp-img img-comp-overlay">
+        <img id="image1Container" src="">
+        <img id="image1ContainerOverlay" src="">
+      </div>
+    </div>
+  
+    <div class="img-comp-split-container img-comp-charts">
+      <div class="chart-size-wrap">
+        <h4 class="chart-legend">SIZE</h4>
+        <p class="chart-values"></p>
+        <canvas id="sizeChart" height="300" width="200"></canvas>
+      </div>
+      <div class="chart-time-wrap">
+        <h4 class="chart-legend">TIME</h4>
+        <p class="chart-values"></p>
+        <canvas id="timeChart" height="300" width="200"></canvas>
+      </div>
+      <div class="chart-ssim-wrap">
+        <h4 class="chart-legend">SSIM</h4>
+        <p class="chart-values"></p>
+        <canvas id="ssimChart" height="300" width="200"></canvas>
+      </div>
+    </div>
+  
+    <div class="img-comp-split-container img-comp-imagedata">
+      <div id="image0Data"></div>
+      <div id="image1Data"></div>
+    </div>
+
   </div>
-  <div class="img-comp-img img-comp-overlay">
-    <img src="#">
+    
+</div>
+
+<div class="img-comparator-charts-wrap">
+  <h3>Charts 4 geeks</h3>
+  <div class="img-comp-split-container img-comp-charts">
+    <div>
+      <canvas id="sizeLineChart" height="300" width="800"></canvas>
+      <p class="chart-legend"><b>Filesize</b></p>
+    </div>
+  </div>
+  
+  <div class="img-comp-split-container img-comp-charts">
+    <div>
+      <canvas id="timeLineChart" height="300" width="800"></canvas>
+      <p class="chart-legend"><b>Time</b> - total encoding time</p>
+    </div>
+  </div>
+  
+  <div class="img-comp-split-container img-comp-charts">
+    <div>
+      <canvas id="ssimLineChart" height="300" width="800"></canvas>
+      <p class="chart-legend"><b>SSIM</b> - Structural Similarity Index</p>
+    </div>
+  </div>
+  
+  <div class="img-comp-split-container img-comp-charts">
+    <div>
+      <canvas id="dssimLineChart" height="300" width="800"></canvas>
+      <p class="chart-legend"><b>DSSIM</b> - Structural Dissimilarity Index</p>
+    </div>
+  </div>
+  
+  <div class="img-comp-split-container img-comp-charts">
+    <div>
+      <canvas id="psnrLineChart" height="300" width="800"></canvas>
+      <p class="chart-legend"><b>PSNR</b> - peak signal to noise ratio</p>
+    </div>
+  </div>
+  
+  <div class="img-comp-split-container img-comp-charts">
+    <div>
+      <canvas id="maeLineChart" height="300" width="800"></canvas>
+      <p class="chart-legend"><b>MAE</b> - Mean Absolute Error (normalized), average channel error distance</p>
+    </div>
   </div>
 </div>
 <!-- wp:post-comments {"textAlign":"left"} /-->

@@ -1,13 +1,13 @@
-Source: 
-1.002 real,0.001 user,0.002 sys,0.23 cpu
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.000u 0:00.000
-
-Processing: cross-mozjpg-05.jpg
-0.051 real,0.051 user,0.000 sys,100.09 cpu
-cross/cross-mozjpg-05.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 10904B 0.000u 0:00.000
-TIMETOCOMPLETE:.052080575
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-mozjpg-05.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 10904B 0.010u 0:00.007
+STARTAT: 1650249159
+SOURCEPATH: cross/
+SOURCEFILE: cross.png
+cross cross png Zip srgb 1252778 1000 661
+PROCESSING: cross-mozjpg-05.jpg
+STATS:0.050 real,0.050 user,0.000 sys,100.10 cpu
+RESULT:cross cross-mozjpg-05 jpg JPEG srgb 10904 1000 661
+TIMETOCOMPLETE:.051464844
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.549294
@@ -15,14 +15,44 @@ Image: cross/cross.png
     blue: 0.528163
     all: 0.542752
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-mozjpg-05.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.778
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.775
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.225353
+    green: 0.2246
+    blue: 0.235919
+    all: 0.228624
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-mozjpg-05-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.783
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 21.2973
+    green: 21.3183
+    blue: 20.7567
+    all: 21.1162
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.485
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 4190.93 (0.0639495)
+    green: 4060.05 (0.0619523)
+    blue: 4595.42 (0.0701216)
+    all: 4282.13 (0.0653411)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.482
 
-Processing: cross-mozjpg-25.jpg
-0.070 real,0.066 user,0.004 sys,100.07 cpu
-cross/cross-mozjpg-25.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 48329B 0.000u 0:00.000
-TIMETOCOMPLETE:.071076855
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-mozjpg-25.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 48329B 0.000u 0:00.008
+PROCESSING: cross-mozjpg-25.jpg
+STATS:0.070 real,0.066 user,0.004 sys,100.08 cpu
+RESULT:cross cross-mozjpg-25 jpg JPEG srgb 48329 1000 661
+TIMETOCOMPLETE:.071385695
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.841439
@@ -30,14 +60,44 @@ Image: cross/cross.png
     blue: 0.823202
     all: 0.839465
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-mozjpg-25.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.779
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.776
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0792805
+    green: 0.0731236
+    blue: 0.0883988
+    all: 0.0802676
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-mozjpg-25-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.748
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 27.742
+    green: 27.6738
+    blue: 27.089
+    all: 27.4915
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.481
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1938 (0.029572)
+    green: 1895.22 (0.0289191)
+    blue: 2104.7 (0.0321156)
+    all: 1979.3 (0.0302023)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.482
 
-Processing: cross-mozjpg-50.jpg
-0.087 real,0.087 user,0.000 sys,100.07 cpu
-cross/cross-mozjpg-50.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 80042B 0.000u 0:00.000
-TIMETOCOMPLETE:.087952064
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-mozjpg-50.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 80042B 0.010u 0:00.008
+PROCESSING: cross-mozjpg-50.jpg
+STATS:0.087 real,0.087 user,0.000 sys,100.07 cpu
+RESULT:cross cross-mozjpg-50 jpg JPEG srgb 80042 1000 661
+TIMETOCOMPLETE:.088465058
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.908442
@@ -45,14 +105,44 @@ Image: cross/cross.png
     blue: 0.8918
     all: 0.906488
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-mozjpg-50.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.782
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.774
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.025
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.045779
+    green: 0.0403893
+    blue: 0.0541002
+    all: 0.0467561
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-mozjpg-50-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.824
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 30.4606
+    green: 30.5129
+    blue: 29.5882
+    all: 30.1661
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.482
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1404.02 (0.021424)
+    green: 1358.49 (0.0207293)
+    blue: 1557.63 (0.023768)
+    all: 1440.05 (0.0219737)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.492
 
-Processing: cross-mozjpg-60.jpg
-0.099 real,0.099 user,0.000 sys,100.05 cpu
-cross/cross-mozjpg-60.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 92539B 0.000u 0:00.000
-TIMETOCOMPLETE:.100548876
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-mozjpg-60.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 92539B 0.010u 0:00.009
+PROCESSING: cross-mozjpg-60.jpg
+STATS:0.100 real,0.092 user,0.008 sys,100.05 cpu
+RESULT:cross cross-mozjpg-60 jpg JPEG srgb 92539 1000 661
+TIMETOCOMPLETE:.100894038
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.025
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.922805
@@ -60,14 +150,44 @@ Image: cross/cross.png
     blue: 0.907213
     all: 0.921146
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-mozjpg-60.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.783
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.776
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0385977
+    green: 0.0332888
+    blue: 0.0463937
+    all: 0.0394268
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-mozjpg-60-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.810u 0:00.735
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 31.3081
+    green: 31.4454
+    blue: 30.3583
+    all: 31.0097
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.483
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1274.04 (0.0194405)
+    green: 1219.44 (0.0186074)
+    blue: 1423.77 (0.0217253)
+    all: 1305.75 (0.0199244)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.497
 
-Processing: cross-mozjpg-70.jpg
-0.113 real,0.114 user,0.000 sys,100.03 cpu
-cross/cross-mozjpg-70.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 110590B 0.000u 0:00.000
-TIMETOCOMPLETE:.114857967
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-mozjpg-70.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 110590B 0.010u 0:00.011
+PROCESSING: cross-mozjpg-70.jpg
+STATS:0.112 real,0.112 user,0.000 sys,100.04 cpu
+RESULT:cross cross-mozjpg-70 jpg JPEG srgb 110590 1000 661
+TIMETOCOMPLETE:.113045966
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.938362
@@ -75,14 +195,44 @@ Image: cross/cross.png
     blue: 0.923856
     all: 0.936726
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-mozjpg-70.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.811
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.890u 0:00.801
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.030819
+    green: 0.0260195
+    blue: 0.038072
+    all: 0.0316369
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-mozjpg-70-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.820u 0:00.739
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 32.3997
+    green: 32.616
+    blue: 31.3349
+    all: 32.0799
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.484
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1120.32 (0.017095)
+    green: 1066.58 (0.0162749)
+    blue: 1264.94 (0.0193017)
+    all: 1150.61 (0.0175572)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.484
 
-Processing: cross-mozjpg-75.jpg
-0.118 real,0.118 user,0.000 sys,100.06 cpu
-cross/cross-mozjpg-75.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 122852B 0.000u 0:00.000
-TIMETOCOMPLETE:.119165147
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-mozjpg-75.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 122852B 0.010u 0:00.009
+PROCESSING: cross-mozjpg-75.jpg
+STATS:0.118 real,0.113 user,0.004 sys,100.05 cpu
+RESULT:cross cross-mozjpg-75 jpg JPEG srgb 122852 1000 661
+TIMETOCOMPLETE:.118934567
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.945709
@@ -90,14 +240,44 @@ Image: cross/cross.png
     blue: 0.932093
     all: 0.944267
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-mozjpg-75.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.784
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.782
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0271457
+    green: 0.0225012
+    blue: 0.0339533
+    all: 0.0278667
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-mozjpg-75-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.741
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 33.0166
+    green: 33.306
+    blue: 31.8937
+    all: 32.695
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.483
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1039.83 (0.0158667)
+    green: 984.686 (0.0150253)
+    blue: 1178.77 (0.0179869)
+    all: 1067.76 (0.016293)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.482
 
-Processing: cross-mozjpg-80.jpg
-0.146 real,0.146 user,0.000 sys,100.04 cpu
-cross/cross-mozjpg-80.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 157734B 0.000u 0:00.000
-TIMETOCOMPLETE:.147599629
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-mozjpg-80.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 157734B 0.010u 0:00.013
+PROCESSING: cross-mozjpg-80.jpg
+STATS:0.145 real,0.142 user,0.004 sys,100.03 cpu
+RESULT:cross cross-mozjpg-80 jpg JPEG srgb 157734 1000 661
+TIMETOCOMPLETE:.146763045
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.958011
@@ -105,14 +285,44 @@ Image: cross/cross.png
     blue: 0.949071
     all: 0.957125
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-mozjpg-80.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.890u 0:00.786
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.771
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0209946
+    green: 0.0178531
+    blue: 0.0254646
+    all: 0.0214374
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-mozjpg-80-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.742
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 34.5313
+    green: 34.4932
+    blue: 33.6118
+    all: 34.1909
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.482
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 876.788 (0.0133789)
+    green: 858.343 (0.0130975)
+    blue: 973.775 (0.0148588)
+    all: 902.969 (0.0137784)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.477
 
-Processing: cross-mozjpg-85.jpg
-0.162 real,0.158 user,0.004 sys,100.04 cpu
-cross/cross-mozjpg-85.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 183656B 0.000u 0:00.000
-TIMETOCOMPLETE:.163557054
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-mozjpg-85.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 183656B 0.010u 0:00.015
+PROCESSING: cross-mozjpg-85.jpg
+STATS:0.163 real,0.159 user,0.004 sys,100.04 cpu
+RESULT:cross cross-mozjpg-85 jpg JPEG srgb 183656 1000 661
+TIMETOCOMPLETE:.164383414
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.966673
@@ -120,14 +330,44 @@ Image: cross/cross.png
     blue: 0.958454
     all: 0.965779
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-mozjpg-85.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.783
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.766
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0166634
+    green: 0.0138949
+    blue: 0.020773
+    all: 0.0171105
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-mozjpg-85-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.820u 0:00.741
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 35.6555
+    green: 35.7548
+    blue: 34.6355
+    all: 35.3184
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.479
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 771.03 (0.0117652)
+    green: 745.578 (0.0113768)
+    blue: 864.531 (0.0131919)
+    all: 793.713 (0.0121113)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.472
 
-Processing: cross-mozjpg-90.jpg
-0.228 real,0.224 user,0.004 sys,100.03 cpu
-cross/cross-mozjpg-90.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 269868B 0.000u 0:00.000
-TIMETOCOMPLETE:.229380187
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-mozjpg-90.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 269868B 0.010u 0:00.018
+PROCESSING: cross-mozjpg-90.jpg
+STATS:0.229 real,0.225 user,0.004 sys,100.02 cpu
+RESULT:cross cross-mozjpg-90 jpg JPEG srgb 269868 1000 661
+TIMETOCOMPLETE:.230411508
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.978798
@@ -135,14 +375,44 @@ Image: cross/cross.png
     blue: 0.975513
     all: 0.978518
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-mozjpg-90.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.756
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.749
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0106009
+    green: 0.00937822
+    blue: 0.0122436
+    all: 0.0107409
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-mozjpg-90-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.739
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 38.2245
+    green: 37.8638
+    blue: 37.6353
+    all: 37.9011
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.660u 0:00.456
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 582.83 (0.00889341)
+    green: 590.091 (0.00900421)
+    blue: 627.859 (0.00958051)
+    all: 600.26 (0.00915938)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.468
 
-Processing: cross-mozjpg-95.jpg
-0.309 real,0.301 user,0.008 sys,100.02 cpu
-cross/cross-mozjpg-95.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 373080B 0.000u 0:00.000
-TIMETOCOMPLETE:.310360831
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-mozjpg-95.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 373080B 0.020u 0:00.024
+PROCESSING: cross-mozjpg-95.jpg
+STATS:0.309 real,0.306 user,0.004 sys,100.02 cpu
+RESULT:cross cross-mozjpg-95 jpg JPEG srgb 373080 1000 661
+TIMETOCOMPLETE:.310857953
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.988025
@@ -150,14 +420,44 @@ Image: cross/cross.png
     blue: 0.985772
     all: 0.987869
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-mozjpg-95.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.752
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.746
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.00598764
+    green: 0.00509544
+    blue: 0.00711405
+    all: 0.00606571
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-mozjpg-95-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.735
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 41.3443
+    green: 41.2506
+    blue: 40.6127
+    all: 41.0568
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.451
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 412.528 (0.00629478)
+    green: 406.008 (0.00619529)
+    blue: 452.311 (0.00690183)
+    all: 423.616 (0.00646397)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.660u 0:00.452
 
-Processing: cross-avif-05.avif
-0.663 real,1.434 user,0.012 sys,218.11 cpu
-cross/cross-avif-05.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 10544B 0.000u 0:00.000
-TIMETOCOMPLETE:.664340363
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-avif-05.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 10544B 0.020u 0:00.027
+PROCESSING: cross-avif-05.avif
+STATS:0.661 real,1.421 user,0.020 sys,218.01 cpu
+RESULT:cross cross-avif-05 avif Undefined srgb 10544 1000 661
+TIMETOCOMPLETE:.662282763
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.68705
@@ -165,14 +465,44 @@ Image: cross/cross.png
     blue: 0.668436
     all: 0.681572
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-avif-05.avif-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.776
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.774
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.156475
+    green: 0.155385
+    blue: 0.165782
+    all: 0.159214
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-avif-05-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.776
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 23.6948
+    green: 23.796
+    blue: 23.2644
+    all: 23.5788
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.479
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 3140.23 (0.0479169)
+    green: 3038.31 (0.0463617)
+    blue: 3332.13 (0.050845)
+    all: 3170.22 (0.0483745)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.479
 
-Processing: cross-avif-25.avif
-0.814 real,1.849 user,0.016 sys,229.29 cpu
-cross/cross-avif-25.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 31884B 0.000u 0:00.000
-TIMETOCOMPLETE:.814826338
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-avif-25.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 31884B 0.040u 0:00.036
+PROCESSING: cross-avif-25.avif
+STATS:0.813 real,1.842 user,0.016 sys,228.55 cpu
+RESULT:cross cross-avif-25 avif Undefined srgb 31884 1000 661
+TIMETOCOMPLETE:.814108562
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.863528
@@ -180,14 +510,44 @@ Image: cross/cross.png
     blue: 0.84396
     all: 0.860452
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-avif-25.avif-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.778
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.779
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0682359
+    green: 0.063067
+    blue: 0.0780198
+    all: 0.0697742
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-avif-25-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.750
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 28.4178
+    green: 28.9416
+    blue: 27.5648
+    all: 28.2706
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.486
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1821.7 (0.0277973)
+    green: 1704.07 (0.0260025)
+    blue: 2028.48 (0.0309526)
+    all: 1851.42 (0.0282508)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.481
 
-Processing: cross-avif-50.avif
-1.059 real,2.387 user,0.032 sys,228.42 cpu
-cross/cross-avif-50.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 76930B 0.000u 0:00.000
-TIMETOCOMPLETE:1.060256129
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-avif-50.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 76930B 0.040u 0:00.047
+PROCESSING: cross-avif-50.avif
+STATS:1.057 real,2.387 user,0.024 sys,228.12 cpu
+RESULT:cross cross-avif-50 avif Undefined srgb 76930 1000 661
+TIMETOCOMPLETE:1.058253126
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.94645
@@ -195,14 +555,44 @@ Image: cross/cross.png
     blue: 0.931072
     all: 0.945136
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-avif-50.avif-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.781
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.779
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.026775
+    green: 0.0210565
+    blue: 0.0344639
+    all: 0.0274318
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-avif-50-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.754
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 33.1285
+    green: 34.5814
+    blue: 31.7739
+    all: 33.0118
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.486
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1045.54 (0.0159539)
+    green: 908.046 (0.0138559)
+    blue: 1213.99 (0.0185242)
+    all: 1055.86 (0.0161114)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.482
 
-Processing: cross-avif-60.avif
-1.167 real,2.703 user,0.012 sys,232.62 cpu
-cross/cross-avif-60.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 108307B 0.000u 0:00.000
-TIMETOCOMPLETE:1.168295660
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-avif-60.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 108307B 0.050u 0:00.053
+PROCESSING: cross-avif-60.avif
+STATS:1.164 real,2.683 user,0.024 sys,232.55 cpu
+RESULT:cross cross-avif-60 avif Undefined srgb 108307 1000 661
+TIMETOCOMPLETE:1.165622927
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.963818
@@ -210,14 +600,44 @@ Image: cross/cross.png
     blue: 0.950116
     all: 0.962766
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-avif-60.avif-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.890u 0:00.785
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.775
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0180912
+    green: 0.012818
+    blue: 0.0249421
+    all: 0.0186171
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-avif-60-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.738
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 35.0681
+    green: 37.0917
+    blue: 33.3841
+    all: 34.924
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.480
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 817.347 (0.0124719)
+    green: 679.723 (0.0103719)
+    blue: 980.256 (0.0149578)
+    all: 825.775 (0.0126005)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.700u 0:00.497
 
-Processing: cross-avif-70.avif
-1.239 real,2.852 user,0.020 sys,231.74 cpu
-cross/cross-avif-70.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 134782B 0.000u 0:00.000
-TIMETOCOMPLETE:1.240589431
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-avif-70.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 134782B 0.060u 0:00.058
+PROCESSING: cross-avif-70.avif
+STATS:1.237 real,2.847 user,0.020 sys,231.74 cpu
+RESULT:cross cross-avif-70 avif Undefined srgb 134782 1000 661
+TIMETOCOMPLETE:1.238601083
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.971496
@@ -225,14 +645,44 @@ Image: cross/cross.png
     blue: 0.959015
     all: 0.97061
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-avif-70.avif-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.774
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.773
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0142518
+    green: 0.00934079
+    blue: 0.0204926
+    all: 0.0146951
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-avif-70-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.742
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 36.1524
+    green: 38.6783
+    blue: 34.2956
+    all: 36.0205
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.478
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 706.074 (0.010774)
+    green: 562.402 (0.00858171)
+    blue: 860.364 (0.0131283)
+    all: 709.613 (0.010828)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.478
 
-Processing: cross-avif-75.avif
-1.281 real,2.986 user,0.016 sys,234.30 cpu
-cross/cross-avif-75.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 149532B 0.000u 0:00.000
-TIMETOCOMPLETE:1.282659547
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-avif-75.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 149532B 0.060u 0:00.060
+PROCESSING: cross-avif-75.avif
+STATS:1.275 real,2.971 user,0.012 sys,233.99 cpu
+RESULT:cross cross-avif-75 avif Undefined srgb 149532 1000 661
+TIMETOCOMPLETE:1.276479262
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.974521
@@ -240,14 +690,44 @@ Image: cross/cross.png
     blue: 0.962548
     all: 0.973687
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-avif-75.avif-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.774
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.772
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0127393
+    green: 0.00800469
+    blue: 0.018726
+    all: 0.0131567
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-avif-75-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.739
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 36.658
+    green: 39.4188
+    blue: 34.72
+    all: 36.5269
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.484
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.025
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 655.743 (0.010006)
+    green: 513.615 (0.00783726)
+    blue: 807.437 (0.0123207)
+    all: 658.932 (0.0100547)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.950u 0:00.598
 
-Processing: cross-avif-80.avif
-1.334 real,3.129 user,0.016 sys,235.75 cpu
-cross/cross-avif-80.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 170404B 0.000u 0:00.000
-TIMETOCOMPLETE:1.335451784
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-avif-80.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 170404B 0.060u 0:00.064
+PROCESSING: cross-avif-80.avif
+STATS:1.333 real,3.127 user,0.012 sys,235.54 cpu
+RESULT:cross cross-avif-80 avif Undefined srgb 170404 1000 661
+TIMETOCOMPLETE:1.334086393
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.97755
@@ -255,14 +735,44 @@ Image: cross/cross.png
     blue: 0.966147
     all: 0.976819
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-avif-80.avif-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.766
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.771
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.011225
+    green: 0.00662019
+    blue: 0.0169266
+    all: 0.0115906
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-avif-80-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.748
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 37.1967
+    green: 40.2888
+    blue: 35.1773
+    all: 37.0787
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.484
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 603.265 (0.00920523)
+    green: 459.24 (0.00700756)
+    blue: 749.63 (0.0114386)
+    all: 604.045 (0.00921713)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.471
 
-Processing: cross-avif-85.avif
-1.429 real,3.389 user,0.016 sys,238.26 cpu
-cross/cross-avif-85.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 211379B 0.000u 0:00.000
-TIMETOCOMPLETE:1.430238925
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-avif-85.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 211379B 0.060u 0:00.067
+PROCESSING: cross-avif-85.avif
+STATS:1.426 real,3.371 user,0.016 sys,237.47 cpu
+RESULT:cross cross-avif-85 avif Undefined srgb 211379 1000 661
+TIMETOCOMPLETE:1.427852248
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.981356
@@ -270,14 +780,44 @@ Image: cross/cross.png
     blue: 0.970689
     all: 0.980801
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-avif-85.avif-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.758
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.768
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.00932191
+    green: 0.00482041
+    blue: 0.0146556
+    all: 0.00959929
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-avif-85-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.740
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 37.9556
+    green: 41.573
+    blue: 35.8186
+    all: 37.8548
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.464
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 532.476 (0.00812506)
+    green: 384.169 (0.00586205)
+    blue: 671.789 (0.0102508)
+    all: 529.478 (0.00807932)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.471
 
-Processing: cross-avif-90.avif
-1.475 real,3.504 user,0.020 sys,238.97 cpu
-cross/cross-avif-90.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 263917B 0.000u 0:00.000
-TIMETOCOMPLETE:1.475996727
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-avif-90.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 263917B 0.080u 0:00.076
+PROCESSING: cross-avif-90.avif
+STATS:1.523 real,3.496 user,0.028 sys,231.41 cpu
+RESULT:cross cross-avif-90 avif Undefined srgb 263917 1000 661
+TIMETOCOMPLETE:1.524547600
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.984674
@@ -285,14 +825,44 @@ Image: cross/cross.png
     blue: 0.974839
     all: 0.984233
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-avif-90.avif-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.754
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.753
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.00766298
+    green: 0.00340698
+    blue: 0.0125806
+    all: 0.00788352
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-avif-90-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.740
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 38.6013
+    green: 42.749
+    blue: 36.3601
+    all: 38.515
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.461
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 467.618 (0.00713539)
+    green: 319.096 (0.0048691)
+    blue: 602.378 (0.0091917)
+    all: 463.031 (0.0070654)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.458
 
-Processing: cross-avif-95.avif
-1.506 real,3.646 user,0.016 sys,243.23 cpu
-cross/cross-avif-95.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 346981B 0.000u 0:00.000
-TIMETOCOMPLETE:1.507062391
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-avif-95.avif AVIF 1000x661 1000x661+0+0 8-bit sRGB 346981B 0.090u 0:00.087
+PROCESSING: cross-avif-95.avif
+STATS:1.508 real,3.638 user,0.020 sys,242.65 cpu
+RESULT:cross cross-avif-95 avif Undefined srgb 346981 1000 661
+TIMETOCOMPLETE:1.508890506
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.987459
@@ -300,14 +870,44 @@ Image: cross/cross.png
     blue: 0.978437
     all: 0.987099
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-avif-95.avif-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.756
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.753
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.00627066
+    green: 0.00229843
+    blue: 0.0107817
+    all: 0.00645027
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-avif-95-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.820u 0:00.729
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 39.1715
+    green: 43.8096
+    blue: 36.8491
+    all: 39.0987
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.456
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 406.918 (0.00620918)
+    green: 257.491 (0.00392907)
+    blue: 534.328 (0.00815332)
+    all: 399.579 (0.00609719)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.455
 
-Processing: cross-webp-05.webp
-0.105 real,0.097 user,0.008 sys,100.06 cpu
-cross/cross-webp-05.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 31408B 0.010u 0:00.009
-TIMETOCOMPLETE:.106071741
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-webp-05.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 31408B 0.010u 0:00.011
+PROCESSING: cross-webp-05.webp
+STATS:0.105 real,0.097 user,0.008 sys,100.05 cpu
+RESULT:cross cross-webp-05 webp Undefined srgb 31408 1000 661
+TIMETOCOMPLETE:.106080934
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.821349
@@ -315,14 +915,44 @@ Image: cross/cross.png
     blue: 0.80073
     all: 0.815324
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-webp-05.webp-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.778
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.783
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0893257
+    green: 0.088054
+    blue: 0.0996348
+    all: 0.0923382
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-webp-05-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.758
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 26.8481
+    green: 27.0884
+    blue: 26.1225
+    all: 26.6667
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.481
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 2160.96 (0.0329741)
+    green: 2076.49 (0.0316852)
+    blue: 2399.17 (0.036609)
+    all: 2212.21 (0.0337561)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.482
 
-Processing: cross-webp-25.webp
-0.112 real,0.104 user,0.008 sys,100.05 cpu
-cross/cross-webp-25.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 56086B 0.010u 0:00.010
-TIMETOCOMPLETE:.113144919
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-webp-25.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 56086B 0.010u 0:00.013
+PROCESSING: cross-webp-25.webp
+STATS:0.112 real,0.096 user,0.016 sys,100.05 cpu
+RESULT:cross cross-webp-25 webp Undefined srgb 56086 1000 661
+TIMETOCOMPLETE:.113811443
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.899937
@@ -330,14 +960,44 @@ Image: cross/cross.png
     blue: 0.880675
     all: 0.896908
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-webp-25.webp-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.783
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.776
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0500316
+    green: 0.0449436
+    blue: 0.0596625
+    all: 0.0515459
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-webp-25-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.820u 0:00.740
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 29.5837
+    green: 30.3557
+    blue: 28.5842
+    all: 29.447
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.483
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1560.93 (0.0238183)
+    green: 1430.58 (0.0218292)
+    blue: 1772.42 (0.0270454)
+    all: 1587.98 (0.0242309)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.482
 
-Processing: cross-webp-50.webp
-0.119 real,0.107 user,0.012 sys,100.05 cpu
-cross/cross-webp-50.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 82558B 0.010u 0:00.012
-TIMETOCOMPLETE:.120264724
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-webp-50.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 82558B 0.010u 0:00.015
+PROCESSING: cross-webp-50.webp
+STATS:0.119 real,0.115 user,0.004 sys,100.04 cpu
+RESULT:cross cross-webp-50 webp Undefined srgb 82558 1000 661
+TIMETOCOMPLETE:.119866870
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.933235
@@ -345,14 +1005,44 @@ Image: cross/cross.png
     blue: 0.91598
     all: 0.930848
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-webp-50.webp-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.778
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.778
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0333826
+    green: 0.0283358
+    blue: 0.0420101
+    all: 0.0345761
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-webp-50-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.740
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.026
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.008
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 31.8775
+    green: 32.9171
+    blue: 30.6624
+    all: 31.7212
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.493
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.026
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1215.37 (0.0185453)
+    green: 1087.13 (0.0165885)
+    blue: 1400.03 (0.0213632)
+    all: 1234.18 (0.0188323)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.482
 
-Processing: cross-webp-60.webp
-0.121 real,0.109 user,0.012 sys,100.06 cpu
-cross/cross-webp-60.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 93306B 0.010u 0:00.013
-TIMETOCOMPLETE:.122340313
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-webp-60.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 93306B 0.010u 0:00.015
+PROCESSING: cross-webp-60.webp
+STATS:0.121 real,0.109 user,0.012 sys,100.04 cpu
+RESULT:cross cross-webp-60 webp Undefined srgb 93306 1000 661
+TIMETOCOMPLETE:.122199968
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.942813
@@ -360,14 +1050,44 @@ Image: cross/cross.png
     blue: 0.926656
     all: 0.940785
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-webp-60.webp-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.781
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.780
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0285935
+    green: 0.0235567
+    blue: 0.036672
+    all: 0.0296074
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-webp-60-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.820u 0:00.737
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 32.6271
+    green: 33.7866
+    blue: 31.3317
+    all: 32.4662
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.481
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1113.97 (0.0169981)
+    green: 986.314 (0.0150502)
+    blue: 1292.02 (0.019715)
+    all: 1130.77 (0.0172544)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.700u 0:00.492
 
-Processing: cross-webp-70.webp
-0.124 real,0.121 user,0.004 sys,100.05 cpu
-cross/cross-webp-70.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 104042B 0.010u 0:00.013
-TIMETOCOMPLETE:.125769600
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-webp-70.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 104042B 0.020u 0:00.016
+PROCESSING: cross-webp-70.webp
+STATS:0.123 real,0.111 user,0.012 sys,100.04 cpu
+RESULT:cross cross-webp-70 webp Undefined srgb 104042 1000 661
+TIMETOCOMPLETE:.124320672
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.950022
@@ -375,14 +1095,44 @@ Image: cross/cross.png
     blue: 0.935255
     all: 0.948337
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-webp-70.webp-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.786
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.781
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0249891
+    green: 0.0201324
+    blue: 0.0323727
+    all: 0.0258314
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-webp-70-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.820u 0:00.736
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 33.3579
+    green: 34.6102
+    blue: 32.0072
+    all: 33.1955
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.482
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1024.36 (0.0156307)
+    green: 899.176 (0.0137205)
+    blue: 1193.49 (0.0182114)
+    all: 1039.01 (0.0158542)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.485
 
-Processing: cross-webp-75.webp
-0.124 real,0.121 user,0.004 sys,100.04 cpu
-cross/cross-webp-75.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 110580B 0.010u 0:00.014
-TIMETOCOMPLETE:.125805114
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-webp-75.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 110580B 0.010u 0:00.017
+PROCESSING: cross-webp-75.webp
+STATS:0.124 real,0.121 user,0.004 sys,100.05 cpu
+RESULT:cross cross-webp-75 webp Undefined srgb 110580 1000 661
+TIMETOCOMPLETE:.125776187
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.953868
@@ -390,14 +1140,44 @@ Image: cross/cross.png
     blue: 0.93949
     all: 0.952251
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-webp-75.webp-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.900u 0:00.791
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.775
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.023066
+    green: 0.018302
+    blue: 0.030255
+    all: 0.0238743
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-webp-75-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.742
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 33.7099
+    green: 35.0436
+    blue: 32.3241
+    all: 33.5515
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.488
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 982.145 (0.0149866)
+    green: 855.737 (0.0130577)
+    blue: 1146.47 (0.017494)
+    all: 994.785 (0.0151794)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.483
 
-Processing: cross-webp-80.webp
-0.129 real,0.121 user,0.008 sys,100.05 cpu
-cross/cross-webp-80.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 131534B 0.010u 0:00.015
-TIMETOCOMPLETE:.130056149
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-webp-80.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 131534B 0.010u 0:00.018
+PROCESSING: cross-webp-80.webp
+STATS:0.129 real,0.125 user,0.004 sys,100.04 cpu
+RESULT:cross cross-webp-80 webp Undefined srgb 131534 1000 661
+TIMETOCOMPLETE:.130353181
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.962862
@@ -405,14 +1185,44 @@ Image: cross/cross.png
     blue: 0.950315
     all: 0.961584
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-webp-80.webp-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.778
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.785
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0185689
+    green: 0.0142125
+    blue: 0.0248427
+    all: 0.0192081
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-webp-80-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.743
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.008
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 34.9236
+    green: 36.4622
+    blue: 33.4009
+    all: 34.751
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.482
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 856.51 (0.0130695)
+    green: 732.707 (0.0111804)
+    blue: 1011.37 (0.0154325)
+    all: 866.862 (0.0132275)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.480
 
-Processing: cross-webp-85.webp
-0.134 real,0.126 user,0.008 sys,100.04 cpu
-cross/cross-webp-85.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 160176B 0.020u 0:00.017
-TIMETOCOMPLETE:.135202520
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-webp-85.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 160176B 0.020u 0:00.020
+PROCESSING: cross-webp-85.webp
+STATS:0.134 real,0.122 user,0.012 sys,100.04 cpu
+RESULT:cross cross-webp-85 webp Undefined srgb 160176 1000 661
+TIMETOCOMPLETE:.135220142
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.971644
@@ -420,14 +1230,44 @@ Image: cross/cross.png
     blue: 0.960498
     all: 0.970556
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-webp-85.webp-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.778
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.775
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0141782
+    green: 0.0102369
+    blue: 0.019751
+    all: 0.014722
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-webp-85-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.741
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 36.1819
+    green: 38.0604
+    blue: 34.5097
+    all: 36.0136
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.700u 0:00.486
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 734.768 (0.0112118)
+    green: 609.93 (0.00930694)
+    blue: 880.142 (0.0134301)
+    all: 741.614 (0.0113163)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.480
 
-Processing: cross-webp-90.webp
-0.142 real,0.126 user,0.016 sys,100.04 cpu
-cross/cross-webp-90.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 208874B 0.020u 0:00.020
-TIMETOCOMPLETE:.142845821
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-webp-90.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 208874B 0.020u 0:00.022
+PROCESSING: cross-webp-90.webp
+STATS:0.142 real,0.142 user,0.000 sys,100.04 cpu
+RESULT:cross cross-webp-90 webp Undefined srgb 208874 1000 661
+TIMETOCOMPLETE:.143023484
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.980603
@@ -435,14 +1275,44 @@ Image: cross/cross.png
     blue: 0.971117
     all: 0.97962
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-webp-90.webp-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.767
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.767
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.00969844
+    green: 0.00643055
+    blue: 0.0144417
+    all: 0.0101902
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-webp-90-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.750
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 37.9605
+    green: 40.2822
+    blue: 36.0065
+    all: 37.743
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.700u 0:00.482
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 589.261 (0.00899155)
+    green: 469.011 (0.00715666)
+    blue: 723.69 (0.0110428)
+    all: 593.987 (0.00906367)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.472
 
-Processing: cross-webp-95.webp
-0.153 real,0.153 user,0.000 sys,100.04 cpu
-cross/cross-webp-95.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 274238B 0.020u 0:00.024
-TIMETOCOMPLETE:.153906737
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-webp-95.webp WEBP 1000x661 1000x661+0+0 8-bit sRGB 274238B 0.030u 0:00.026
+PROCESSING: cross-webp-95.webp
+STATS:0.154 real,0.138 user,0.016 sys,100.02 cpu
+RESULT:cross cross-webp-95 webp Undefined srgb 274238 1000 661
+TIMETOCOMPLETE:.154982412
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.986667
@@ -450,14 +1320,44 @@ Image: cross/cross.png
     blue: 0.97844
     all: 0.985741
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-webp-95.webp-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.761
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.756
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.00666663
+    green: 0.00394148
+    blue: 0.0107802
+    all: 0.00712945
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-webp-95-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.740
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 39.5034
+    green: 42.4576
+    blue: 37.2634
+    all: 39.2484
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.470
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1983280B 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 475.02 (0.00724834)
+    green: 357.018 (0.00544775)
+    blue: 602.568 (0.0091946)
+    all: 478.202 (0.00729689)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.463
 
-Processing: cross-jpg-05.jpg
-0.039 real,0.035 user,0.004 sys,100.16 cpu
-cross/cross-jpg-05.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 18924B 0.000u 0:00.000
-TIMETOCOMPLETE:.040351213
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-jpg-05.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 18924B 0.010u 0:00.006
+PROCESSING: cross-jpg-05.jpg
+STATS:0.054 real,0.116 user,0.012 sys,237.13 cpu
+RESULT:cross cross-jpg-05 jpg JPEG srgb 18924 1000 661
+TIMETOCOMPLETE:.055244722
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.646533
@@ -465,14 +1365,44 @@ Image: cross/cross.png
     blue: 0.617866
     all: 0.643086
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-jpg-05.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.779
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.773
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.176733
+    green: 0.16757
+    blue: 0.191067
+    all: 0.178457
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-jpg-05-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.792
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 22.3606
+    green: 23.1465
+    blue: 21.4867
+    all: 22.2783
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.660u 0:00.479
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 3793.85 (0.0578905)
+    green: 3387.24 (0.0516859)
+    blue: 4304.8 (0.065687)
+    all: 3828.63 (0.0584212)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.480
 
-Processing: cross-jpg-25.jpg
-0.041 real,0.037 user,0.004 sys,100.16 cpu
-cross/cross-jpg-25.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 66730B 0.000u 0:00.000
-TIMETOCOMPLETE:.041947130
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-jpg-25.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 66730B 0.010u 0:00.006
+PROCESSING: cross-jpg-25.jpg
+STATS:0.056 real,0.130 user,0.004 sys,242.02 cpu
+RESULT:cross cross-jpg-25 jpg JPEG srgb 66730 1000 661
+TIMETOCOMPLETE:.057085238
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.874905
@@ -480,14 +1410,44 @@ Image: cross/cross.png
     blue: 0.8532
     all: 0.874394
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-jpg-25.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.781
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.786
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0625476
+    green: 0.0524615
+    blue: 0.0733999
+    all: 0.062803
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-jpg-25-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.749
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 28.6227
+    green: 29.4247
+    blue: 27.698
+    all: 28.5244
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.485
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1760.67 (0.026866)
+    green: 1590.11 (0.0242636)
+    blue: 1963.95 (0.0299679)
+    all: 1771.58 (0.0270325)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.482
 
-Processing: cross-jpg-50.jpg
-0.042 real,0.034 user,0.008 sys,100.15 cpu
-cross/cross-jpg-50.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 102144B 0.000u 0:00.000
-TIMETOCOMPLETE:.043118215
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-jpg-50.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 102144B 0.010u 0:00.007
+PROCESSING: cross-jpg-50.jpg
+STATS:0.058 real,0.138 user,0.004 sys,245.05 cpu
+RESULT:cross cross-jpg-50 jpg JPEG srgb 102144 1000 661
+TIMETOCOMPLETE:.059175306
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.920173
@@ -495,14 +1455,44 @@ Image: cross/cross.png
     blue: 0.90103
     all: 0.919538
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-jpg-50.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.780
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.776
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0399135
+    green: 0.0312952
+    blue: 0.0494848
+    all: 0.0402312
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-jpg-50-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.820u 0:00.738
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 30.9383
+    green: 31.982
+    blue: 29.7556
+    all: 30.7968
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.700u 0:00.499
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1329.92 (0.0202933)
+    green: 1175.83 (0.017942)
+    blue: 1517.82 (0.0231604)
+    all: 1341.19 (0.0204652)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.700u 0:00.495
 
-Processing: cross-jpg-60.jpg
-0.042 real,0.031 user,0.011 sys,100.07 cpu
-cross/cross-jpg-60.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 115593B 0.000u 0:00.000
-TIMETOCOMPLETE:.043520917
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-jpg-60.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 115593B 0.010u 0:00.007
+PROCESSING: cross-jpg-60.jpg
+STATS:0.058 real,0.130 user,0.012 sys,246.23 cpu
+RESULT:cross cross-jpg-60 jpg JPEG srgb 115593 1000 661
+TIMETOCOMPLETE:.059103051
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.930553
@@ -510,14 +1500,44 @@ Image: cross/cross.png
     blue: 0.911896
     all: 0.929729
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-jpg-60.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.890u 0:00.782
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.910u 0:00.804
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0347234
+    green: 0.0266314
+    blue: 0.044052
+    all: 0.0351356
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-jpg-60-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.820u 0:00.735
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 31.6443
+    green: 32.7989
+    blue: 30.3783
+    all: 31.4949
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.485
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1221.53 (0.0186393)
+    green: 1071.14 (0.0163445)
+    blue: 1404.6 (0.0214328)
+    all: 1232.42 (0.0188055)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.488
 
-Processing: cross-jpg-70.jpg
-0.043 real,0.039 user,0.004 sys,100.14 cpu
-cross/cross-jpg-70.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 136109B 0.000u 0:00.000
-TIMETOCOMPLETE:.044306129
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-jpg-70.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 136109B 0.000u 0:00.007
+PROCESSING: cross-jpg-70.jpg
+STATS:0.058 real,0.118 user,0.021 sys,240.35 cpu
+RESULT:cross cross-jpg-70 jpg JPEG srgb 136109 1000 661
+TIMETOCOMPLETE:.059292725
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.941987
@@ -525,14 +1545,44 @@ Image: cross/cross.png
     blue: 0.924611
     all: 0.941235
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-jpg-70.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.779
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.778
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0290064
+    green: 0.0214463
+    blue: 0.0376943
+    all: 0.0293823
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-jpg-70-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.738
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 32.5811
+    green: 33.9092
+    blue: 31.2137
+    all: 32.4295
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.482
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1093.03 (0.0166785)
+    green: 946.535 (0.0144432)
+    blue: 1272.21 (0.0194127)
+    all: 1103.93 (0.0168448)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.481
 
-Processing: cross-jpg-75.jpg
-0.043 real,0.039 user,0.004 sys,100.10 cpu
-cross/cross-jpg-75.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 148972B 0.000u 0:00.000
-TIMETOCOMPLETE:.044242949
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-jpg-75.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 148972B 0.000u 0:00.007
+PROCESSING: cross-jpg-75.jpg
+STATS:0.058 real,0.130 user,0.012 sys,243.28 cpu
+RESULT:cross cross-jpg-75 jpg JPEG srgb 148972 1000 661
+TIMETOCOMPLETE:.059803107
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.947763
@@ -540,14 +1590,44 @@ Image: cross/cross.png
     blue: 0.931362
     all: 0.947144
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-jpg-75.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.782
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.782
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0261183
+    green: 0.0188475
+    blue: 0.0343188
+    all: 0.0264282
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-jpg-75-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.820u 0:00.736
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 33.1198
+    green: 34.615
+    blue: 31.6941
+    all: 32.9812
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.481
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1026.45 (0.0156626)
+    green: 876.154 (0.0133693)
+    blue: 1198.5 (0.0182879)
+    all: 1033.7 (0.0157733)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.488
 
-Processing: cross-jpg-80.jpg
-0.043 real,0.040 user,0.004 sys,100.15 cpu
-cross/cross-jpg-80.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 168841B 0.000u 0:00.000
-TIMETOCOMPLETE:.044735814
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-jpg-80.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 168841B 0.010u 0:00.007
+PROCESSING: cross-jpg-80.jpg
+STATS:0.059 real,0.131 user,0.012 sys,242.21 cpu
+RESULT:cross cross-jpg-80 jpg JPEG srgb 168841 1000 661
+TIMETOCOMPLETE:.060234792
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.955487
@@ -555,14 +1635,44 @@ Image: cross/cross.png
     blue: 0.939702
     all: 0.954574
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-jpg-80.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.781
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.890u 0:00.791
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0222563
+    green: 0.0157331
+    blue: 0.030149
+    all: 0.0227128
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-jpg-80-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.743
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 33.934
+    green: 35.5953
+    blue: 32.3501
+    all: 33.7606
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.492
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 933.686 (0.0142471)
+    green: 786.13 (0.0119956)
+    blue: 1107.5 (0.0168994)
+    all: 942.439 (0.0143807)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.700u 0:00.487
 
-Processing: cross-jpg-85.jpg
-0.044 real,0.040 user,0.004 sys,100.11 cpu
-cross/cross-jpg-85.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 195084B 0.000u 0:00.000
-TIMETOCOMPLETE:.045580077
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-jpg-85.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 195084B 0.010u 0:00.008
+PROCESSING: cross-jpg-85.jpg
+STATS:0.060 real,0.139 user,0.004 sys,239.62 cpu
+RESULT:cross cross-jpg-85 jpg JPEG srgb 195084 1000 661
+TIMETOCOMPLETE:.061131994
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.963219
@@ -570,14 +1680,44 @@ Image: cross/cross.png
     blue: 0.948789
     all: 0.962354
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-jpg-85.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.784
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.779
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0183903
+    green: 0.0124727
+    blue: 0.0256054
+    all: 0.0188228
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-jpg-85-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.738
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 34.8994
+    green: 36.8159
+    blue: 33.2281
+    all: 34.7394
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.485
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 833.608 (0.01272)
+    green: 686.66 (0.0104778)
+    blue: 997.881 (0.0152267)
+    all: 839.383 (0.0128082)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.481
 
-Processing: cross-jpg-90.jpg
-0.050 real,0.039 user,0.012 sys,100.09 cpu
-cross/cross-jpg-90.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 291033B 0.000u 0:00.000
-TIMETOCOMPLETE:.051754878
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-jpg-90.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 291033B 0.010u 0:00.009
+PROCESSING: cross-jpg-90.jpg
+STATS:0.068 real,0.143 user,0.012 sys,229.50 cpu
+RESULT:cross cross-jpg-90 jpg JPEG srgb 291033 1000 661
+TIMETOCOMPLETE:.068871223
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.025
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.978377
@@ -585,14 +1725,44 @@ Image: cross/cross.png
     blue: 0.9724
     all: 0.978226
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-jpg-90.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.764
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.762
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0108117
+    green: 0.00804902
+    blue: 0.0138
+    all: 0.0108869
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-jpg-90-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.746
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 38.3944
+    green: 39.4868
+    blue: 37.2559
+    all: 38.2839
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.479
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 579.451 (0.00884186)
+    green: 513.297 (0.00783241)
+    blue: 658.392 (0.0100464)
+    all: 583.713 (0.00890689)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.474
 
-Processing: cross-jpg-95.jpg
-0.053 real,0.049 user,0.004 sys,100.11 cpu
-cross/cross-jpg-95.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 404339B 0.000u 0:00.000
-TIMETOCOMPLETE:.054614670
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-jpg-95.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 404339B 0.010u 0:00.010
+PROCESSING: cross-jpg-95.jpg
+STATS:0.069 real,0.141 user,0.012 sys,222.49 cpu
+RESULT:cross cross-jpg-95 jpg JPEG srgb 404339 1000 661
+TIMETOCOMPLETE:.069994543
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.988037
@@ -600,14 +1770,44 @@ Image: cross/cross.png
     blue: 0.984293
     all: 0.987918
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-jpg-95.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.753
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.748
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.00598166
+    green: 0.00428837
+    blue: 0.0078534
+    all: 0.00604114
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-jpg-95-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.820u 0:00.735
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 41.648
+    green: 43.1102
+    blue: 40.3363
+    all: 41.5524
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.455
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 402.733 (0.00614531)
+    green: 343.055 (0.00523468)
+    blue: 467.49 (0.00713344)
+    all: 404.426 (0.00617114)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.660u 0:00.454
 
-Processing: cross-pjpg-05.jpg
-0.043 real,0.035 user,0.008 sys,100.14 cpu
-cross/cross-pjpg-05.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 19901B 0.000u 0:00.000
-TIMETOCOMPLETE:.043941292
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-pjpg-05.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 19901B 0.010u 0:00.009
+PROCESSING: cross-pjpg-05.jpg
+STATS:0.060 real,0.140 user,0.009 sys,246.54 cpu
+RESULT:cross cross-pjpg-05 jpg JPEG srgb 19901 1000 661
+TIMETOCOMPLETE:.061493161
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.646533
@@ -615,14 +1815,44 @@ Image: cross/cross.png
     blue: 0.617866
     all: 0.643086
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-pjpg-05.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.890u 0:00.803
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.774
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.176733
+    green: 0.16757
+    blue: 0.191067
+    all: 0.178457
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-pjpg-05-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.782
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 22.3606
+    green: 23.1465
+    blue: 21.4867
+    all: 22.2783
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.484
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 3793.85 (0.0578905)
+    green: 3387.24 (0.0516859)
+    blue: 4304.8 (0.065687)
+    all: 3828.63 (0.0584212)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.488
 
-Processing: cross-pjpg-25.jpg
-0.047 real,0.047 user,0.000 sys,100.14 cpu
-cross/cross-pjpg-25.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 66547B 0.000u 0:00.000
-TIMETOCOMPLETE:.048439934
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-pjpg-25.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 66547B 0.010u 0:00.011
+PROCESSING: cross-pjpg-25.jpg
+STATS:0.062 real,0.134 user,0.012 sys,235.79 cpu
+RESULT:cross cross-pjpg-25 jpg JPEG srgb 66547 1000 661
+TIMETOCOMPLETE:.063012498
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.874905
@@ -630,14 +1860,44 @@ Image: cross/cross.png
     blue: 0.8532
     all: 0.874394
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-pjpg-25.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.783
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.775
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0625476
+    green: 0.0524615
+    blue: 0.0733999
+    all: 0.062803
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-pjpg-25-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.749
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 28.6227
+    green: 29.4247
+    blue: 27.698
+    all: 28.5244
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.484
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1760.67 (0.026866)
+    green: 1590.11 (0.0242636)
+    blue: 1963.95 (0.0299679)
+    all: 1771.58 (0.0270325)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.480
 
-Processing: cross-pjpg-50.jpg
-0.050 real,0.046 user,0.004 sys,100.13 cpu
-cross/cross-pjpg-50.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 100561B 0.000u 0:00.000
-TIMETOCOMPLETE:.051228985
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-pjpg-50.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 100561B 0.010u 0:00.012
+PROCESSING: cross-pjpg-50.jpg
+STATS:0.065 real,0.141 user,0.008 sys,229.27 cpu
+RESULT:cross cross-pjpg-50 jpg JPEG srgb 100561 1000 661
+TIMETOCOMPLETE:.066576629
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.025
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.920173
@@ -645,14 +1905,44 @@ Image: cross/cross.png
     blue: 0.90103
     all: 0.919538
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-pjpg-50.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.782
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.794
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0399135
+    green: 0.0312952
+    blue: 0.0494848
+    all: 0.0402312
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-pjpg-50-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.743
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 30.9383
+    green: 31.982
+    blue: 29.7556
+    all: 30.7968
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.492
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1329.92 (0.0202933)
+    green: 1175.83 (0.017942)
+    blue: 1517.82 (0.0231604)
+    all: 1341.19 (0.0204652)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.499
 
-Processing: cross-pjpg-60.jpg
-0.051 real,0.042 user,0.008 sys,100.13 cpu
-cross/cross-pjpg-60.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 113366B 0.000u 0:00.000
-TIMETOCOMPLETE:.052174592
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-pjpg-60.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 113366B 0.010u 0:00.013
+PROCESSING: cross-pjpg-60.jpg
+STATS:0.066 real,0.138 user,0.012 sys,225.99 cpu
+RESULT:cross cross-pjpg-60 jpg JPEG srgb 113366 1000 661
+TIMETOCOMPLETE:.067689506
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.930553
@@ -660,14 +1950,44 @@ Image: cross/cross.png
     blue: 0.911896
     all: 0.929729
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-pjpg-60.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.910u 0:00.812
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.777
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0347234
+    green: 0.0266314
+    blue: 0.044052
+    all: 0.0351356
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-pjpg-60-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.739
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 31.6443
+    green: 32.7989
+    blue: 30.3783
+    all: 31.4949
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.486
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1221.53 (0.0186393)
+    green: 1071.14 (0.0163445)
+    blue: 1404.6 (0.0214328)
+    all: 1232.42 (0.0188055)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.484
 
-Processing: cross-pjpg-70.jpg
-0.052 real,0.044 user,0.008 sys,100.12 cpu
-cross/cross-pjpg-70.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 132308B 0.000u 0:00.000
-TIMETOCOMPLETE:.053299776
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-pjpg-70.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 132308B 0.010u 0:00.013
+PROCESSING: cross-pjpg-70.jpg
+STATS:0.067 real,0.144 user,0.008 sys,225.39 cpu
+RESULT:cross cross-pjpg-70 jpg JPEG srgb 132308 1000 661
+TIMETOCOMPLETE:.068422368
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.941987
@@ -675,14 +1995,44 @@ Image: cross/cross.png
     blue: 0.924611
     all: 0.941235
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-pjpg-70.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.781
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.890u 0:00.802
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0290064
+    green: 0.0214463
+    blue: 0.0376943
+    all: 0.0293823
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-pjpg-70-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.820u 0:00.745
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 32.5811
+    green: 33.9092
+    blue: 31.2137
+    all: 32.4295
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.484
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1093.03 (0.0166785)
+    green: 946.535 (0.0144432)
+    blue: 1272.21 (0.0194127)
+    all: 1103.93 (0.0168448)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.482
 
-Processing: cross-pjpg-75.jpg
-0.053 real,0.045 user,0.008 sys,100.13 cpu
-cross/cross-pjpg-75.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 144037B 0.000u 0:00.000
-TIMETOCOMPLETE:.054378953
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-pjpg-75.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 144037B 0.010u 0:00.014
+PROCESSING: cross-pjpg-75.jpg
+STATS:0.068 real,0.144 user,0.008 sys,224.01 cpu
+RESULT:cross cross-pjpg-75 jpg JPEG srgb 144037 1000 661
+TIMETOCOMPLETE:.069082283
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.947763
@@ -690,14 +2040,44 @@ Image: cross/cross.png
     blue: 0.931362
     all: 0.947144
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-pjpg-75.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.920u 0:00.833
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.880u 0:00.786
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0261183
+    green: 0.0188475
+    blue: 0.0343188
+    all: 0.0264282
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-pjpg-75-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.746
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 33.1198
+    green: 34.615
+    blue: 31.6941
+    all: 32.9812
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.481
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 1026.45 (0.0156626)
+    green: 876.154 (0.0133693)
+    blue: 1198.5 (0.0182879)
+    all: 1033.7 (0.0157733)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.690u 0:00.483
 
-Processing: cross-pjpg-80.jpg
-0.054 real,0.042 user,0.011 sys,100.10 cpu
-cross/cross-pjpg-80.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 161742B 0.000u 0:00.000
-TIMETOCOMPLETE:.055061722
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-pjpg-80.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 161742B 0.020u 0:00.014
+PROCESSING: cross-pjpg-80.jpg
+STATS:0.069 real,0.136 user,0.017 sys,220.96 cpu
+RESULT:cross cross-pjpg-80 jpg JPEG srgb 161742 1000 661
+TIMETOCOMPLETE:.070563978
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.955487
@@ -705,14 +2085,44 @@ Image: cross/cross.png
     blue: 0.939702
     all: 0.954574
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-pjpg-80.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.900u 0:00.788
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.775
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0222563
+    green: 0.0157331
+    blue: 0.030149
+    all: 0.0227128
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-pjpg-80-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.740
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 33.934
+    green: 35.5953
+    blue: 32.3501
+    all: 33.7606
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.481
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 933.686 (0.0142471)
+    green: 786.13 (0.0119956)
+    blue: 1107.5 (0.0168994)
+    all: 942.439 (0.0143807)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.700u 0:00.490
 
-Processing: cross-pjpg-85.jpg
-0.055 real,0.047 user,0.008 sys,100.11 cpu
-cross/cross-pjpg-85.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 185988B 0.000u 0:00.000
-TIMETOCOMPLETE:.056387361
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-pjpg-85.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 185988B 0.010u 0:00.016
+PROCESSING: cross-pjpg-85.jpg
+STATS:0.071 real,0.139 user,0.015 sys,218.72 cpu
+RESULT:cross cross-pjpg-85 jpg JPEG srgb 185988 1000 661
+TIMETOCOMPLETE:.071913371
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.963219
@@ -720,14 +2130,44 @@ Image: cross/cross.png
     blue: 0.948789
     all: 0.962354
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-pjpg-85.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.779
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.773
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0183903
+    green: 0.0124727
+    blue: 0.0256054
+    all: 0.0188228
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-pjpg-85-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.746
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 34.8994
+    green: 36.8159
+    blue: 33.2281
+    all: 34.7394
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.481
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 833.608 (0.01272)
+    green: 686.66 (0.0104778)
+    blue: 997.881 (0.0152267)
+    all: 839.383 (0.0128082)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.700u 0:00.492
 
-Processing: cross-pjpg-90.jpg
-0.066 real,0.058 user,0.008 sys,100.10 cpu
-cross/cross-pjpg-90.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 278679B 0.000u 0:00.000
-TIMETOCOMPLETE:.067203342
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-pjpg-90.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 278679B 0.020u 0:00.021
+PROCESSING: cross-pjpg-90.jpg
+STATS:0.082 real,0.142 user,0.024 sys,201.72 cpu
+RESULT:cross cross-pjpg-90 jpg JPEG srgb 278679 1000 661
+TIMETOCOMPLETE:.083126681
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.978377
@@ -735,14 +2175,44 @@ Image: cross/cross.png
     blue: 0.9724
     all: 0.978226
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-pjpg-90.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.769
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.755
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.0108117
+    green: 0.00804902
+    blue: 0.0138
+    all: 0.0108869
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-pjpg-90-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.737
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 38.3944
+    green: 39.4868
+    blue: 37.2559
+    all: 38.2839
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.680u 0:00.463
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.000u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 579.451 (0.00884186)
+    green: 513.297 (0.00783241)
+    blue: 658.392 (0.0100464)
+    all: 583.713 (0.00890689)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.660u 0:00.462
 
-Processing: cross-pjpg-95.jpg
-0.072 real,0.056 user,0.016 sys,100.07 cpu
-cross/cross-pjpg-95.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 383234B 0.000u 0:00.000
-TIMETOCOMPLETE:.073621599
-cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
-cross/cross-pjpg-95.jpg JPEG 1000x661 1000x661+0+0 8-bit sRGB 383234B 0.020u 0:00.024
+PROCESSING: cross-pjpg-95.jpg
+STATS:0.087 real,0.159 user,0.012 sys,195.78 cpu
+RESULT:cross cross-pjpg-95 jpg JPEG srgb 383234 1000 661
+TIMETOCOMPLETE:.088753248
+SSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
 Image: cross/cross.png
   Channel distortion: SSIM
     red: 0.988037
@@ -750,7 +2220,37 @@ Image: cross/cross.png
     blue: 0.984293
     all: 0.987918
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross-pjpg-95.jpg-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.870u 0:00.754
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 1.840u 0:00.750
+DSSIM:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: DSSIM
+    red: 0.00598166
+    green: 0.00428837
+    blue: 0.0078534
+    all: 0.00604114
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>cross/cross-pjpg-95-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.830u 0:00.749
+PSNR:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: PSNR
+    red: 41.648
+    green: 43.1102
+    blue: 40.3363
+    all: 41.5524
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.890u 0:00.550
+MAE:cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
+cross/test.tiff TIFF 1000x661 1000x661+0+0 8-bit TrueColor sRGB 1.89145MiB 0.010u 0:00.007
+Image: cross/cross.png
+  Channel distortion: MAE
+    red: 402.733 (0.00614531)
+    green: 343.055 (0.00523468)
+    blue: 467.49 (0.00713344)
+    all: 404.426 (0.00617114)
+writing raw profile: type=xmp, length=1636
+cross/cross.png=>NULL PNG 1000x661 8-bit sRGB 1.19474MiB 0.670u 0:00.456
 cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
 cross/cross.png PNG 1000x661 1000x661+0+0 8-bit sRGB 1.19474MiB 0.020u 0:00.024
 Image: cross/cross.png
@@ -760,117 +2260,5 @@ Image: cross/cross.png
     blue: 1
     all: 1
 writing raw profile: type=xmp, length=1636
-cross/cross.png=>cross/cross.png-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.860u 0:00.784
-cross//cross-avif-05.avif,10544
-cross//cross-avif-05.avif-SSIM.png,793626
-cross//cross-avif-25.avif,31884
-cross//cross-avif-25.avif-SSIM.png,800901
-cross//cross-avif-50.avif,76930
-cross//cross-avif-50.avif-SSIM.png,814641
-cross//cross-avif-5.avif,10544
-cross//cross-avif-5.avif-SSIM.png,793626
-cross//cross-avif-60.avif,108307
-cross//cross-avif-60.avif-SSIM.png,824788
-cross//cross-avif-70.avif,134782
-cross//cross-avif-70.avif-SSIM.png,831728
-cross//cross-avif-75.avif,149532
-cross//cross-avif-75.avif-SSIM.png,836160
-cross//cross-avif-80.avif,170404
-cross//cross-avif-80.avif-SSIM.png,840317
-cross//cross-avif-85.avif,211379
-cross//cross-avif-85.avif-SSIM.png,852515
-cross//cross-avif-90.avif,263917
-cross//cross-avif-90.avif-SSIM.png,864862
-cross//cross-avif-95.avif,346981
-cross//cross-avif-95.avif-SSIM.png,890578
-cross//cross-jpg-05.jpg,18924
-cross//cross-jpg-05.jpg-SSIM.png,795485
-cross//cross-jpg-25.jpg,66730
-cross//cross-jpg-25.jpg-SSIM.png,798380
-cross//cross-jpg-50.jpg,102144
-cross//cross-jpg-50.jpg-SSIM.png,809733
-cross//cross-jpg-5.jpg,18924
-cross//cross-jpg-5.jpg-SSIM.png,795485
-cross//cross-jpg-60.jpg,115593
-cross//cross-jpg-60.jpg-SSIM.png,815703
-cross//cross-jpg-70.jpg,136109
-cross//cross-jpg-70.jpg-SSIM.png,818328
-cross//cross-jpg-75.jpg,148972
-cross//cross-jpg-75.jpg-SSIM.png,821265
-cross//cross-jpg-80.jpg,168841
-cross//cross-jpg-80.jpg-SSIM.png,826376
-cross//cross-jpg-85.jpg,195084
-cross//cross-jpg-85.jpg-SSIM.png,831461
-cross//cross-jpg-90.jpg,291033
-cross//cross-jpg-90.jpg-SSIM.png,851260
-cross//cross-jpg-95.jpg,404339
-cross//cross-jpg-95.jpg-SSIM.png,872223
-cross//cross-mozjpg-05.jpg,10904
-cross//cross-mozjpg-05.jpg-SSIM.png,795531
-cross//cross-mozjpg-25.jpg,48329
-cross//cross-mozjpg-25.jpg-SSIM.png,797572
-cross//cross-mozjpg-50.jpg,80042
-cross//cross-mozjpg-50.jpg-SSIM.png,810753
-cross//cross-mozjpg-5.jpg,10904
-cross//cross-mozjpg-5.jpg-SSIM.png,795531
-cross//cross-mozjpg-60.jpg,92539
-cross//cross-mozjpg-60.jpg-SSIM.png,814842
-cross//cross-mozjpg-70.jpg,110590
-cross//cross-mozjpg-70.jpg-SSIM.png,820581
-cross//cross-mozjpg-75.jpg,122852
-cross//cross-mozjpg-75.jpg-SSIM.png,825624
-cross//cross-mozjpg-80.jpg,157734
-cross//cross-mozjpg-80.jpg-SSIM.png,834818
-cross//cross-mozjpg-85.jpg,183656
-cross//cross-mozjpg-85.jpg-SSIM.png,839626
-cross//cross-mozjpg-90.jpg,269868
-cross//cross-mozjpg-90.jpg-SSIM.png,858265
-cross//cross-mozjpg-95.jpg,373080
-cross//cross-mozjpg-95.jpg-SSIM.png,878888
-cross//cross-pjpg-05.jpg,19901
-cross//cross-pjpg-05.jpg-SSIM.png,795485
-cross//cross-pjpg-25.jpg,66547
-cross//cross-pjpg-25.jpg-SSIM.png,798380
-cross//cross-pjpg-50.jpg,100561
-cross//cross-pjpg-50.jpg-SSIM.png,809733
-cross//cross-pjpg-5.jpg,19901
-cross//cross-pjpg-5.jpg-SSIM.png,795485
-cross//cross-pjpg-60.jpg,113366
-cross//cross-pjpg-60.jpg-SSIM.png,815703
-cross//cross-pjpg-70.jpg,132308
-cross//cross-pjpg-70.jpg-SSIM.png,818328
-cross//cross-pjpg-75.jpg,144037
-cross//cross-pjpg-75.jpg-SSIM.png,821265
-cross//cross-pjpg-80.jpg,161742
-cross//cross-pjpg-80.jpg-SSIM.png,826376
-cross//cross-pjpg-85.jpg,185988
-cross//cross-pjpg-85.jpg-SSIM.png,831461
-cross//cross-pjpg-90.jpg,278679
-cross//cross-pjpg-90.jpg-SSIM.png,851260
-cross//cross-pjpg-95.jpg,383234
-cross//cross-pjpg-95.jpg-SSIM.png,872223
-cross//cross.png,1252778
-cross//cross.png-SSIM.png,801805
-cross//cross-webp-05.webp,31408
-cross//cross-webp-05.webp-SSIM.png,796157
-cross//cross-webp-25.webp,56086
-cross//cross-webp-25.webp-SSIM.png,804296
-cross//cross-webp-50.webp,82558
-cross//cross-webp-50.webp-SSIM.png,811387
-cross//cross-webp-5.webp,31408
-cross//cross-webp-5.webp-SSIM.png,796157
-cross//cross-webp-60.webp,93306
-cross//cross-webp-60.webp-SSIM.png,815514
-cross//cross-webp-70.webp,104042
-cross//cross-webp-70.webp-SSIM.png,818053
-cross//cross-webp-75.webp,110580
-cross//cross-webp-75.webp-SSIM.png,819689
-cross//cross-webp-80.webp,131534
-cross//cross-webp-80.webp-SSIM.png,825119
-cross//cross-webp-85.webp,160176
-cross//cross-webp-85.webp-SSIM.png,832075
-cross//cross-webp-90.webp,208874
-cross//cross-webp-90.webp-SSIM.png,843154
-cross//cross-webp-95.webp,274238
-cross//cross-webp-95.webp-SSIM.png,855654
-cross//output.txt,35739
+cross/cross.png=>cross/cross-pjpg-95-SSIM.png PNG 1000x661 8-bit sRGB 1.19474MiB 1.850u 0:00.777
+ENDAT: 1650249343

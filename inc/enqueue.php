@@ -165,14 +165,9 @@ if ( ! function_exists( 'perftest_compare_scripts' ) ) :
 
             $compare_image = explode( "-", $post->post_name );
 
-            $directory_content = scandir( get_template_directory() . "/tests/" . $compare_image[1] );
-
-            // strip the scandir useless data
-            $directory_content = array_diff( $directory_content, array( '.', '..', 'output.txt' ) );
-
             // get the output content
             $txt_file = file_get_contents(get_template_directory_uri() . "/tests/$compare_image[1]/output.txt");
-            $images = explode("Processing: ", $txt_file);
+            $images = explode("PROCESSING: ", $txt_file);
             $raw_data = array();
             foreach ($images as $k => $image) {
               if ($k == 0) {
@@ -186,12 +181,12 @@ if ( ! function_exists( 'perftest_compare_scripts' ) ) :
 
             // the comparison script
             wp_register_script( 'compare-image-scripts', get_template_directory_uri() . '/assets/scripts/image-comparison.js', array(), true );
-
             wp_enqueue_script( 'compare-image-scripts' );
 
             // the images to compare
-            wp_add_inline_script( 'compare-image-scripts', 'var imagepath = "' . get_template_directory_uri() . '/tests/' . $compare_image[1] . '/"; var rawdata = ' . json_encode($raw_data) . '; var compareImages = ' . json_encode( $directory_content ), 'before' );
+            wp_add_inline_script( 'compare-image-scripts', 'var imagepath = "' . get_template_directory_uri() . '/tests/' . $compare_image[1] . '/"; var rawdata = ' . json_encode($raw_data), 'before' );
 
+            wp_enqueue_script( 'compare-image-chartjs', 'https://cdn.jsdelivr.net/npm/chart.js', array(), true );
         }
 
     }

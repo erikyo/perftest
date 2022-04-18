@@ -279,8 +279,8 @@ window.addEventListener('load', function () {
   if (imageContainers[0]) {
 
     // set the image src
-    switchImage( imageContainers[0], Object.keys(imagesData)[1]);
-    switchImage( imageContainers[1], sourceImage['file']);
+    switchImage(imageContainers[0], sourceImage['file'] );
+    switchImage(imageContainers[1], Object.keys(imagesData)[1] );
 
     // set the width and height of the comparator
     imageContainers[0].onload = function() {
@@ -309,13 +309,13 @@ window.addEventListener('load', function () {
     if (image1size > image0size) {
       score.size = {
         win: 1,
-        winName: newImages.image1Container.name,
+        winName: newImages.image0Container.name,
         difference: image1size - image0size
       }
     } else {
       score.size = {
         win: 0,
-        winName: newImages.image0Container.name,
+        winName: newImages.image1Container.name,
         difference: image0size - image1size
       }
     }
@@ -351,17 +351,17 @@ window.addEventListener('load', function () {
     document.querySelector('.chart-size-wrap .chart-values').innerHTML = "<p class='diff'> " + score.size.winName + " weight " + humanFileSize(score.size.difference) + " less</p>" +
       "<p><span class='label data'>" + newImages.image1Container.type + " " + humanFileSize(newImages.image1Container.imageData.sizebyte) + "</span>" +
       "<span class='sign'>" + (score.size.win == 0 ? "<" : ">") + "</span>" +
-      "<span class='label data data-two'>" + newImages.image0Container.type + " " + humanFileSize(newImages.image0Container.imageData.sizebyte) + "</span></p>";
+      "<span class='label data data-two'>" + humanFileSize(newImages.image0Container.imageData.sizebyte) + " " + newImages.image0Container.type + "</span></p>";
 
-    document.querySelector('.chart-time-wrap .chart-values').innerHTML = "<p class='diff'> "+score.time.winName+ " encoding is faster by "+ parseFloat(score.time.difference).toFixed(5)+" sec.</p>" +
-      "<p><span class='label data'>"+newImages.image1Container.type+ " " +newImages.image1Container.encodetime + "</span>"+
-      "<span class='sign'>"+ (score.time.win == 0  ? ">" : "<") + "</span>" +
-      "<span class='label data data-two'>" + newImages.image0Container.type+ " " + newImages.image0Container.encodetime+"</span></p>";
+    document.querySelector('.chart-time-wrap .chart-values').innerHTML = "<p class='diff'> " + score.time.winName + " encoding is faster by " + parseFloat(score.time.difference).toFixed(5) + " sec.</p>" +
+      "<p><span class='label data'>" + newImages.image1Container.type + " " + newImages.image1Container.encodetime + "</span>" +
+      "<span class='sign'>" + (score.time.win == 0 ? ">" : "<") + "</span>" +
+      "<span class='label data data-two'>" + newImages.image0Container.encodetime + " " + newImages.image0Container.type + "</span></p>";
 
-    document.querySelector('.chart-ssim-wrap .chart-values').innerHTML = "<p class='diff'> "+score.ssim.winName+ " SSIM score better by "+ parseFloat(score.ssim.difference).toFixed(5)+"</p>" +
-      "<p><span class='label data'>"+newImages.image1Container.type+ " " +newImages.image1Container.ssim.all + "</span>"+
-      "<span class='sign'>"+ (score.ssim.win == 0  ? "<" : ">") + "</span>" +
-      "<span class='label data data-two'>" + newImages.image0Container.type+ " " + newImages.image0Container.ssim.all+"</span></p>";
+    document.querySelector('.chart-ssim-wrap .chart-values').innerHTML = "<p class='diff'> " + score.ssim.winName + " SSIM score better by " + parseFloat(score.ssim.difference).toFixed(5) + "</p>" +
+      "<p><span class='label data'>" + newImages.image1Container.type + " " + newImages.image1Container.ssim.all + "</span>" +
+      "<span class='sign'>" + (score.ssim.win == 0 ? "<" : ">") + "</span>" +
+      "<span class='label data data-two'>" + newImages.image0Container.ssim.all + " " + newImages.image0Container.type + "</span></p>";
 
   }
 
@@ -385,6 +385,9 @@ window.addEventListener('load', function () {
     switchImage( imageContainers[0], this.value);
   })
 
+  var topScores = {
+    "targets" : [".85",".90",".91",".92",".93",".94",".95",".955",".96",".965",".97",".975",".98",".985",".99"],
+  }
 
   var lineChartData = {};
   Object.values(imagesData).forEach((image) => {
@@ -399,10 +402,36 @@ window.addEventListener('load', function () {
         lineChartData[image.type].dssim[parseInt(image.quality)] = image.dssim ? image.dssim.all : 0
         lineChartData[image.type].psnr[parseInt(image.quality)] = image.psnr ? image.psnr.all : 0
         lineChartData[image.type].mae[parseInt(image.quality)] = image.mae ? image.mae.all.split(" ")[0] : 0
+
+        topScores.targets.forEach(score => {
+          if ( parseFloat(image.ssim.all) > parseFloat(score) && (typeof topScores[score] == "undefined" || topScores[score].sizebyte > parseInt(image.imageData.sizebyte)) ) {
+            topScores[score] = {
+              name: image.name,
+              sizebyte: parseInt(image.imageData.sizebyte),
+              ssim: image.ssim.all,
+              time: image.encodetime
+            }
+          }
+        })
       }
   })
 
 
+  // BEST RESULTS table
+  var resultsTable = '<h3>Best results table</h3>' +
+    '<table class="table-best-results"><tr><th>Target SSIM</th><th>Best SSIM</th><th>Winner</th><th>Size</th><th>Time to encode</th></tr>'
+
+  topScores.targets.forEach( score => {
+    resultsTable += '<tr><td>'+score+'</td><td>'+topScores[score].ssim+'</td><td>'+topScores[score].name+'</td><td>'+humanFileSize(topScores[score].sizebyte)+'</td><td>'+topScores[score].time+'</td></tr>'
+  });
+
+  resultsTable += '</table>'
+
+  const chartsWrap = document.getElementById('img-comparator-table')
+  chartsWrap.innerHTML = resultsTable;
+
+
+  // Results Charts
   var colors = ['#ff5722','#3f51b5', '#03a9f4', '#4caf50','#ffeb3b']
   var sizeFormat = [];
   var timeFormat = [];
@@ -456,8 +485,6 @@ window.addEventListener('load', function () {
     })
   })
 
-  console.log(lineChartData);
-
 
   var sizeLineChart = new Chart(document.getElementById('sizeLineChart'), {
     type: 'line',
@@ -471,6 +498,13 @@ window.addEventListener('load', function () {
         position: 'top',
         labels: {
           boxWidth: 80
+        }
+      },
+      scales: {
+        x: {
+          max: 95,
+          min: 5,
+          type: 'linear'
         }
       }
     }
@@ -489,6 +523,13 @@ window.addEventListener('load', function () {
         labels: {
           boxWidth: 80
         }
+      },
+      scales: {
+        x: {
+          max: 95,
+          min: 5,
+          type: 'linear'
+        }
       }
     }
   });
@@ -506,6 +547,13 @@ window.addEventListener('load', function () {
         labels: {
           boxWidth: 80
         }
+      },
+      scales: {
+        x: {
+          max: 95,
+          min: 5,
+          type: 'linear'
+        }
       }
     }
   });
@@ -522,6 +570,13 @@ window.addEventListener('load', function () {
         position: 'top',
         labels: {
           boxWidth: 80
+        }
+      },
+      scales: {
+        x: {
+          max: 95,
+          min: 5,
+          type: 'linear'
         }
       }
     }
@@ -541,6 +596,13 @@ window.addEventListener('load', function () {
         labels: {
           boxWidth: 80
         }
+      },
+      scales: {
+        x: {
+          max: 95,
+          min: 5,
+          type: 'linear'
+        }
       }
     }
   });
@@ -558,6 +620,13 @@ window.addEventListener('load', function () {
         position: 'top',
         labels: {
           boxWidth: 80
+        }
+      },
+      scales: {
+        x: {
+          max: 95,
+          min: 5,
+          type: 'linear'
         }
       }
     }

@@ -87,6 +87,7 @@ window.addEventListener('load', function () {
       },
       plugins: {
         legend: {
+          display: false,
           labels: {
             generateLabels: (chart) => {
               const datasets = chart.data.datasets;
@@ -159,7 +160,8 @@ window.addEventListener('load', function () {
   var sourceImage = {
     path: rawdata['header'][0][1].replace("SOURCEPATH: ", ''),
     file: rawdata['header'][0][2].replace("SOURCEFILE: ", ''),
-    source: parseIdentify(rawdata['header'][0][3]),
+    reference: rawdata['header'][0][3].replace("REFERENCEFILE: ", ''),
+    source: parseIdentify(rawdata['header'][0][4]),
   };
 
   imagesData[sourceImage['file']] = {
@@ -310,58 +312,79 @@ window.addEventListener('load', function () {
       score.size = {
         win: 1,
         winName: newImages.image0Container.name,
-        difference: image1size - image0size
+        difference: image1size - image0size,
+        increase: (image1size / image0size * 100) - 100
       }
     } else {
       score.size = {
         win: 0,
         winName: newImages.image1Container.name,
-        difference: image0size - image1size
+        difference: image0size - image1size,
+        increase: (image0size / image1size * 100) - 100
       }
     }
 
-    if (newImages.image1Container.encodetime < newImages.image0Container.encodetime) {
+    var image0time = parseFloat(newImages.image0Container.encodetime);
+    var image1time = parseFloat(newImages.image1Container.encodetime);
+
+    if (image1time < image0time) {
       score.time = {
         win: 1,
         winName: newImages.image1Container.name,
-        difference: newImages.image0Container.encodetime - newImages.image1Container.encodetime
+        difference: image0time - image1time,
+        increase: (image1time / image0time * 100) - 100
       }
     } else {
       score.time = {
         win: 0,
         winName: newImages.image0Container.name,
-        difference: newImages.image1Container.encodetime - newImages.image0Container.encodetime,
+        difference: image1time - image0time,
+        increase: (image0time / image1time * 100) - 100
       }
     }
 
-    if (newImages.image1Container.ssim.all > newImages.image0Container.ssim.all) {
+    var image0ssim = parseFloat(newImages.image0Container.ssim.all);
+    var image1ssim = parseFloat(newImages.image1Container.ssim.all);
+
+    if (image1ssim > image0ssim) {
       score.ssim = {
         win: 1,
         winName: newImages.image1Container.name,
-        difference: (newImages.image0Container.ssim.all - newImages.image1Container.ssim.all) * -1
+        difference: (image0ssim - image1ssim) * -1,
+        increase: ((image0ssim / image1ssim * 100) - 100) * -1
       }
     } else {
       score.ssim = {
         win: 0,
         winName: newImages.image0Container.name,
-        difference: (newImages.image1Container.ssim.all - newImages.image0Container.ssim.all) * -1
+        difference: (image1ssim - image0ssim) * -1,
+        increase: ((image1ssim / image0ssim * 100) - 100) * -1
       }
     }
 
-    document.querySelector('.chart-size-wrap .chart-values').innerHTML = "<p class='diff'> " + score.size.winName + " weight " + humanFileSize(score.size.difference) + " less</p>" +
-      "<p><span class='label data'>" + newImages.image1Container.type + " " + humanFileSize(newImages.image1Container.imageData.sizebyte) + "</span>" +
-      "<span class='sign'>" + (score.size.win == 0 ? "<" : ">") + "</span>" +
-      "<span class='label data data-two'>" + humanFileSize(newImages.image0Container.imageData.sizebyte) + " " + newImages.image0Container.type + "</span></p>";
+    document.querySelector('.chart-size-wrap .chart-values').classList.add(score.size.win === 0 ? "win0" : "win1");
+    document.querySelector('.chart-size-wrap .chart-values').innerHTML = "<h2>-"+ Math.round(score.size.increase) +"%</h2>" +
+      "<h4>"+score.size.winName+"</h4>" +
+      "<p class='diff'> weight " + humanFileSize(score.size.difference) + " less</p>" +
+      "<p><span class='label data'>" + humanFileSize(newImages.image1Container.imageData.sizebyte) + "</span>" +
+      "<span class='sign'>" + (score.size.win === 0 ? "<" : ">") + "</span>" +
+      "<span class='label data data-two'>" + humanFileSize(newImages.image0Container.imageData.sizebyte) + "</span></p>";
 
-    document.querySelector('.chart-time-wrap .chart-values').innerHTML = "<p class='diff'> " + score.time.winName + " encoding is faster by " + parseFloat(score.time.difference).toFixed(5) + " sec.</p>" +
-      "<p><span class='label data'>" + newImages.image1Container.type + " " + newImages.image1Container.encodetime + "</span>" +
-      "<span class='sign'>" + (score.time.win == 0 ? ">" : "<") + "</span>" +
-      "<span class='label data data-two'>" + newImages.image0Container.encodetime + " " + newImages.image0Container.type + "</span></p>";
+    document.querySelector('.chart-time-wrap .chart-values').classList.add(score.time.win === 0 ? "win0" : "win1");
+    document.querySelector('.chart-time-wrap .chart-values').innerHTML = "<h2>" + Math.round(score.time.increase) + " %</h2>" +
+      "<h4>"+score.time.winName+"</h4>" +
+      "<p class='diff'>encoding is faster by "+parseFloat(score.time.difference).toFixed(3)+"</p>" +
+      "<p><span class='label data'>" + parseFloat(newImages.image1Container.encodetime).toFixed(5) + " sec.</span>" +
+      "<span class='sign'>" + (score.time.win === 0 ? ">" : "<") + "</span>" +
+      "<span class='label data data-two'>" + parseFloat(newImages.image0Container.encodetime).toFixed(5) + " sec.</span></p>";
 
-    document.querySelector('.chart-ssim-wrap .chart-values').innerHTML = "<p class='diff'> " + score.ssim.winName + " SSIM score better by " + parseFloat(score.ssim.difference).toFixed(5) + "</p>" +
-      "<p><span class='label data'>" + newImages.image1Container.type + " " + newImages.image1Container.ssim.all + "</span>" +
-      "<span class='sign'>" + (score.ssim.win == 0 ? "<" : ">") + "</span>" +
-      "<span class='label data data-two'>" + newImages.image0Container.ssim.all + " " + newImages.image0Container.type + "</span></p>";
+    document.querySelector('.chart-ssim-wrap .chart-values').classList.add(score.ssim.win === 0 ? "win0" : "win1");
+    document.querySelector('.chart-ssim-wrap .chart-values').innerHTML = "<h2>+" + parseFloat(score.ssim.increase).toFixed(1) + "%</h2>" +
+      "<h4>"+score.ssim.winName+"</h4>" +
+      "<p class='diff'> Quality analysis (SSIM) score better by " + parseFloat(score.ssim.difference).toFixed(5) + "</p>" +
+      "<p><span class='label data'>" + parseFloat(newImages.image1Container.ssim.all).toFixed(5) + "</span>" +
+      "<span class='sign'>" + (score.ssim.win === 0 ? "<" : ">") + "</span>" +
+      "<span class='label data data-two'>" + parseFloat(newImages.image0Container.ssim.all).toFixed(5) + "</span></p>";
 
   }
 
@@ -418,11 +441,11 @@ window.addEventListener('load', function () {
 
 
   // BEST RESULTS table
-  var resultsTable = '<h3>Best results table</h3>' +
+  var resultsTable = '<h3>Best results table</h3><p>the best format/quality combination for a given SSIM score</p>' +
     '<table class="table-best-results"><tr><th>Target SSIM</th><th>Best SSIM</th><th>Winner</th><th>Size</th><th>Time to encode</th></tr>'
 
   topScores.targets.forEach( score => {
-    resultsTable += '<tr><td>'+score+'</td><td>'+topScores[score].ssim+'</td><td>'+topScores[score].name+'</td><td>'+humanFileSize(topScores[score].sizebyte)+'</td><td>'+topScores[score].time+'</td></tr>'
+    if (topScores[score]) resultsTable += '<tr><td>'+score+'</td><td>'+topScores[score].ssim+'</td><td>'+topScores[score].name+'</td><td>'+humanFileSize(topScores[score].sizebyte)+'</td><td>'+topScores[score].time+'</td></tr>'
   });
 
   resultsTable += '</table>'
@@ -432,7 +455,7 @@ window.addEventListener('load', function () {
 
 
   // Results Charts
-  var colors = ['#ff5722','#3f51b5', '#03a9f4', '#4caf50','#ffeb3b']
+  var colors = [ '#ff5722','#3f51b5', '#03a9f4', '#4caf50','#ffeb3b', '#ff9800' ]
   var sizeFormat = [];
   var timeFormat = [];
   var ssimFormat = [];
@@ -451,35 +474,35 @@ window.addEventListener('load', function () {
     timeFormat.push({
       label: format[0],
       data: Object.values(format[1].encodetime),
-      lineTension: 0.4,
+      lineTension: 0.2,
       fill: false,
       borderColor: colors[index]
     })
     ssimFormat.push({
       label: format[0],
       data: Object.values(format[1].ssim),
-      lineTension: 0.4,
+      lineTension: 0.2,
       fill: false,
       borderColor: colors[index]
     })
     dssimFormat.push({
       label: format[0],
       data: Object.values(format[1].dssim),
-      lineTension: 0.4,
+      lineTension: 0.2,
       fill: false,
       borderColor: colors[index]
     })
     psnrFormat.push({
       label: format[0],
       data: Object.values(format[1].psnr),
-      lineTension: 0.4,
+      lineTension: 0.2,
       fill: false,
       borderColor: colors[index]
     })
     maeFormat.push({
       label: format[0],
       data: Object.values(format[1].mae),
-      lineTension: 0.4,
+      lineTension: 0.2,
       fill: false,
       borderColor: colors[index]
     })
@@ -489,7 +512,7 @@ window.addEventListener('load', function () {
   var sizeLineChart = new Chart(document.getElementById('sizeLineChart'), {
     type: 'line',
     data: {
-      labels: [5,25,50,60,70,75,80,85,90,95],
+      labels: [5,25,40,50,60,70,75,80,82,85,87,90,92,95],
       datasets: sizeFormat
     },
     options: {
@@ -513,7 +536,7 @@ window.addEventListener('load', function () {
   new Chart(document.getElementById('timeLineChart'), {
     type: 'line',
     data: {
-      labels: [5,25,50,60,70,75,80,85,90,95],
+      labels: [5,25,40,50,60,70,75,80,82,85,87,90,92,95],
       datasets: timeFormat
     },
     options: {
@@ -537,7 +560,7 @@ window.addEventListener('load', function () {
   new Chart(document.getElementById('ssimLineChart'), {
     type: 'line',
     data: {
-      labels: [5,25,50,60,70,75,80,85,90,95],
+      labels: [5,25,40,50,60,70,75,80,82,85,87,90,92,95],
       datasets: ssimFormat
     },
     options: {
@@ -561,7 +584,7 @@ window.addEventListener('load', function () {
   new Chart(document.getElementById('dssimLineChart'), {
     type: 'line',
     data: {
-      labels: [5,25,50,60,70,75,80,85,90,95],
+      labels: [5,25,40,50,60,70,75,80,82,85,87,90,92,95],
       datasets: dssimFormat
     },
     options: {
@@ -586,7 +609,7 @@ window.addEventListener('load', function () {
   new Chart(document.getElementById('psnrLineChart'), {
     type: 'line',
     data: {
-      labels: [5,25,50,60,70,75,80,85,90,95],
+      labels: [5,25,40,50,60,70,75,80,82,85,87,90,92,95],
       datasets: psnrFormat
     },
     options: {
@@ -611,7 +634,7 @@ window.addEventListener('load', function () {
   new Chart(document.getElementById('maeLineChart'), {
     type: 'line',
     data: {
-      labels: [5,25,50,60,70,75,80,85,90,95],
+      labels: [5,25,40,50,60,70,75,80,82,85,87,90,92,95],
       datasets: maeFormat
     },
     options: {

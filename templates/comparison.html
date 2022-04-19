@@ -6,8 +6,8 @@
     <div id="sourceData" class="img-comp-sourcedata"></div>
     <div class="img-comp-split-container img-comp-select-container">
       <select id="selectImage1"></select>
-      <button id="selectImage1Filter"><span class="dashicons dashicons-image-filter"></span></button>
-      <input type="range" id="selectImage1FilterValue" name="FilterValue" min="0" max="100" value="100">
+      <button id="selectImage1Filter" title="overlay with SSIM result (red areas show the difference with the original image)"><span class="dashicons dashicons-image-filter"></span></button>
+      <input type="range" id="selectImage1FilterValue" title="" name="FilterValue" min="0" max="100" value="100">
       <select id="selectImage2"></select>
     </div>
     <div class="img-comp-container">
@@ -23,18 +23,18 @@
     <div class="img-comp-split-container img-comp-charts">
       <div class="chart-size-wrap">
         <h4 class="chart-legend">SIZE</h4>
-        <p class="chart-values"></p>
-        <canvas id="sizeChart" height="300" width="200"></canvas>
+        <div class="chart-values"></div>
+        <canvas id="sizeChart" height="300" width="250"></canvas>
       </div>
       <div class="chart-time-wrap">
         <h4 class="chart-legend">TIME</h4>
-        <p class="chart-values"></p>
-        <canvas id="timeChart" height="300" width="200"></canvas>
+        <div class="chart-values"></div>
+        <canvas id="timeChart" height="300" width="250"></canvas>
       </div>
       <div class="chart-ssim-wrap">
-        <h4 class="chart-legend">SSIM</h4>
-        <p class="chart-values"></p>
-        <canvas id="ssimChart" height="300" width="200"></canvas>
+        <h4 class="chart-legend">QUALITY</h4>
+        <div class="chart-values"></div>
+        <canvas id="ssimChart" height="300" width="250"></canvas>
       </div>
     </div>
   

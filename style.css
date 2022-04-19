@@ -117,11 +117,15 @@
   padding-bottom: 20px;
   margin-bottom: 50px;
 }
-
+.img-comp-split-container.img-comp-charts h2,
+.img-comp-split-container.img-comp-charts h4{
+  margin: 0 auto;
+}
 .img-comp-split-container.img-comp-charts canvas {
   overflow: visible;
 }
 .chart-legend {
+  padding-top: 24px;
   text-align: center;
   font-size: 14px;
 }
@@ -158,11 +162,11 @@
   left: 0;
 }
 
-p.chart-values {
+.chart-values {
   text-align: center;
   font-size: 12px;
 }
-p.chart-values .label {
+.chart-values .label {
   padding: 3px 6px;
   margin: 0 3px;
   line-height: 20px;
@@ -171,12 +175,16 @@ p.chart-values .label {
   color: white;
   font-weight: bold;
 }
-p.chart-values .label.data-two {
+.chart-values .label.data-two {
   background:#ffb729;
 }
 div#img-comparator-table {
   max-width: 850px;
   margin: auto;
+}
+div#img-comparator-table p{
+  font-size: 14px;
+  text-align: center;
 }
 div#img-comparator-table table th{
   font-weight: bold;

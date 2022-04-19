@@ -47,3 +47,6 @@ http://r0k.us/graphics/kodak/
 
 // httparchive page weight stats
 https://httparchive.org/reports/page-weight#bytesImg
+
+// jxl support
+chrome://flags/#enable-jxl

@@ -1,7 +1,7 @@
 #!/bin/bash
 
-FORMATS=(mozjpg avif webp jpg pjpg)
-QUALITY=(05 25 50 60 70 75 80 85 90 95)
+FORMATS=(mozjpg jxl avif webp jpg pjpg)
+QUALITY=(05 25 40 50 60 70 75 80 82 85 87 90 92 95)
 
 # man time to know more about builtins
 # this is because i'm using zsh (you can comment the next line if not needed)
@@ -28,6 +28,7 @@ fi
 echo 'STARTAT: '`date +%s` &> ${DESTPATH}output.txt
 echo 'SOURCEPATH: '${DESTPATH} &>> ${DESTPATH}output.txt
 echo 'SOURCEFILE: '${SOURCEFILE} &>> ${DESTPATH}output.txt
+echo 'REFERENCEFILE: '${COMPAREIMAGE}\.${COMPAREEXT} &>> ${DESTPATH}output.txt
 
 identify -format '%[directory] %[basename] %[extension] %[compression] %[channels] %B %[width] %[height]' ${DESTPATH}${SOURCEFILE} &>> ${DESTPATH}output.txt
 
